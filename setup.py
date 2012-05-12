@@ -6,7 +6,7 @@ def read(*rnames):
 
 setup(
     name="gisdata",
-    version="0.3",
+    version="0.3.1",
     author="ingenieroariel",
     author_email="ingenieroariel@gmail.com",
     description="Sample data for GIS packages",

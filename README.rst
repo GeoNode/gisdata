@@ -34,6 +34,5 @@ Known Issues
 ============
 
  * Vector data does not have sld files
- * There is no sample raster data
  * No xml files with metadata
  * No .keywords fils for machine tags
