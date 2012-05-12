@@ -29,3 +29,11 @@ Get the absolute path to the the sample data from python::
 >>> from gisdata import GOOD_DATA
 >>> print GOOD_DATA
 '/usr/lib/python2.6/site-packages/gisdata/data/good'
+
+Known Issues
+============
+
+ * Vector data does not have sld files
+ * There is no sample raster data
+ * No xml files with metadata
+ * No .keywords fils for machine tags
