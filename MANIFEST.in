@@ -1,0 +1,3 @@
+recursive-include gisdata/data *.shp *.prj *.shx *.dbf *.sld *.xml *.tif
+include README.rst
+
