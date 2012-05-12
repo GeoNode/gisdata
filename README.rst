@@ -20,8 +20,8 @@ Usage
 
 Get the absolute path to the the sample data from python::
 
->>> from gisdata import GIS_DATA
->>> print GIS_DATA
+>>> from gisdata import DATA_DIR
+>>> print DATA_DIR
 '/usr/lib/python2.6/site-packages/gisdata/data'
 >>> from gisdata import BAD_DATA
 >>> print BAD_DATA
