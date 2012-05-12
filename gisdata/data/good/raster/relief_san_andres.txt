@@ -1,0 +1,12 @@
+
+Shaded Relief for the San Andres Island in Colombia taken from Natural Earth
+
+1:10m Shaded Relief
+
+Grayscale shaded relief of land areas only derived from downsampled SRTM Plus elevation data clipped to the 10 million-scale Natural Earth coastline. A flat gray tint fills water areas.
+
+http://www.naturalearthdata.com/downloads/10m-raster-data/10m-shaded-relief/
+
+Generated using:
+
+gdalwarp -te -84 11 -78 15 SR_HR.tif relief_san_andres.tif
