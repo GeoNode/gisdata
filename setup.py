@@ -10,7 +10,7 @@ setup(
     author="ingenieroariel",
     author_email="ingenieroariel@gmail.com",
     description="Sample data for GIS packages",
-    long_description=(read('README.rst')),
+    long_description=(read('README')),
     # Full list of classifiers can be found at:
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
