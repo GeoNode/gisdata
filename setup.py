@@ -6,7 +6,7 @@ def read(*rnames):
 
 setup(
     name="gisdata",
-    version="0.3.7",
+    version="0.3.8",
     author="ingenieroariel",
     author_email="ingenieroariel@gmail.com",
     description="Sample data for GIS packages",
@@ -21,6 +21,6 @@ setup(
     keywords="gis",
     url='https://github.com/ingenieroariel/gisdata',
     packages=['gisdata',],
-    package_data={'gisdata': ['data/good/vector/*', 'data/good/raster/*', '/data/bad/*']},
+    package_data={'gisdata': ['data/good/vector/*', 'data/good/raster/*', 'data/bad/*']},
     zip_safe=False,
 )
