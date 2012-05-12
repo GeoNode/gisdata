@@ -22,6 +22,5 @@ setup(
     url='https://github.com/ingenieroariel/gisdata',
     packages=['gisdata',],
     package_data={'gisdata': ['data']},
-    include_package_data=True,
     zip_safe=False,
 )
