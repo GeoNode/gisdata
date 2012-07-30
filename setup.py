@@ -21,6 +21,6 @@ setup(
     keywords="gis",
     url='https://github.com/ingenieroariel/gisdata',
     packages=['gisdata',],
-    package_data={'gisdata': ['data/good/vector/*', 'data/good/raster/*', 'data/bad/*']},
+    package_data={'gisdata': ['data/good/vector/*', 'data/good/raster/*', 'data/bad/*', 'data/good/time/*']},
     zip_safe=False,
 )
