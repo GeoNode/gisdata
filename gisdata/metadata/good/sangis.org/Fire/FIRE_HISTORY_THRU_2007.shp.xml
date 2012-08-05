@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>CAL FIRE</origin>
+				<pubdate>2008</pubdate>
+				<title Sync="TRUE">FIRE_HISTORY_THRU_2007</title>
+				<edition>07_1</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<ftname Sync="TRUE">FIRE_HISTORY_THRU_2007</ftname><onlink Sync="TRUE">\\BLACK-XP\C$\SDEUpdates\Fire History\FIRE_HISTORY_THRU_2007.shp</onlink><onlink Sync="TRUE">\\BLACK-XP\C$\SDEUpdates\Fire History\FIRE_HISTORY_THRU_2007.shp</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>CAL FIRE, USDA Forest Service Region 5, BLM, NPS, Contract Counties and other agencies jointly maintain a comprehensive fire perimeter GIS layer for public and private lands throughout the state. The data covers fires back to 1878 and of 10 acres and greater.  Some attributes have been modified to match the existing SANGIS.FIRE_BURN_HISTORY data layer.</abstract>
+			<purpose>Provides a reasonable view of the spatial distribution of past large fires within the San Diego County region. Due to missing perimeters (see completeness report) this layer should not be used for statistical analysis and reporting.</purpose>
+			<langdata Sync="TRUE">en</langdata><supplinf>V07_1: the USDA Forest Service provided 300+ historical fire perimeters in addition to the regular annual update of 2007 fires.</supplinf></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates><begdate>1878</begdate><enddate>2007</enddate></rngdates></timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-117.619747</westbc>
+				<eastbc Sync="TRUE">-116.104032</eastbc>
+				<northbc Sync="TRUE">33.664130</northbc>
+				<southbc Sync="TRUE">32.526233</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">6144859.062326</leftbc><rightbc Sync="TRUE">6606081.561106</rightbc><bottombc Sync="TRUE">1773950.787149</bottombc><topbc Sync="TRUE">2185279.697913</topbc></lboundng></spdom>
+		<keywords>
+			<theme><themekey>Fire</themekey><themekey>Fire history</themekey><themekey>Fire perimeters</themekey><themekey>Wildfire</themekey></theme><place><placekey>California</placekey><placekey>San Diego</placekey><placekey>County of San Diego</placekey><placekey>San Diego County</placekey></place></keywords>
+		<useconst>see Citation section for additional constraints</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>1300 U Street</address>
+					<city>Sacramento</city>
+					<state>CA</state>
+					<postal>95818</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(858) 694-2783</cntvoice>
+				<cntfax>(858) 694-3373</cntfax>
+				<cntemail>FRAPdatacontact@fire.ca.gov</cntemail>
+				<hours>0700 - 1600</hours>
+				<cntemail>Matthew.Turner@sdcounty.ca.gov</cntemail><cntorgp><cntorg>County of San Diego, Department of Planning and Land Use: Fire Section</cntorg><cntper>Matthew Turner</cntper></cntorgp><cntpos>GIS Analyst</cntpos><cntinst>Source data from CALFIRE FRAP group; edited for County of San Diego by Matthew Turner</cntinst></cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</native>
+		<natvform Sync="TRUE">Shapefile</natvform><browse/><secinfo/><accconst>Public data - no constraints</accconst><datacred>CAL FIRE recognizes the various federal, state, and local agencies that have contributed to this dataset, including USDA Forest Service Region 5, BLM, National Park Service, and numerous local agencies. </datacred></idinfo>
+	<dataqual>
+		<attracc>
+		</attracc>
+		<lineage>
+			<procstep>
+				<procdesc>Dataset copied.</procdesc>
+				<srcused>P:\fireplan\docs2003\xml\firep04_1</srcused>
+			</procstep>
+			<procstep>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>P:\fireplan\data2003\statewide\shapes\firep04_1.xml</srcused>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">P:\fireplan\docs2003\xml2003\firep04_2.xml</srcused><date Sync="TRUE">20050802</date><time Sync="TRUE">12084400</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">P:\firehistory\fire2006\firep06_new.shp.xml</srcused><date Sync="TRUE">20061023</date><time Sync="TRUE">08190400</time></procstep><attracc><attraccr></attraccr></attracc><srcinfo><srccite><citeinfo><origin></origin><pubdate></pubdate><edition></edition></citeinfo></srccite></srcinfo><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\PCDE1X8NH91\C_Drive\updates\firehis\2007\CALFIRE\fire06_3_tn27.mdb</srcused><date Sync="TRUE">20080311</date><time Sync="TRUE">06174700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\PCDE1X8NH91\C_Drive\updates\firehis\2007\CALFIRE\fire06_3_tn27.mdb</srcused><date Sync="TRUE">20080317</date><time Sync="TRUE">15044500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\fphqsan\frapprojects\firehistory\fireup07\MVU\fire07_1_cal\fire07_1_cal.mdb</srcused><date Sync="TRUE">20080519</date><time Sync="TRUE">14260500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\fphqsan\frapprojects\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb</srcused><date Sync="TRUE">20080602</date><time Sync="TRUE">13160600</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">P:\firehistory\fire2007\final_geodatabase\test.xml</srcused><date Sync="TRUE">20080605</date><time Sync="TRUE">11193400</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">P:\firehistory\fire2007\final_geodatabase\firep07_1xxx.xml</srcused><date Sync="TRUE">20080605</date><time Sync="TRUE">11214900</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">P:\firehistory\fire2007\final_geodatabase\metadata\firep07metadata.xml</srcused><date Sync="TRUE">20080606</date><time Sync="TRUE">10423400</time></procstep><procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">P:\firehistory\fire2007\final_geodatabase\metadata\test2_metadata.xml</srcused><date Sync="TRUE">20080606</date><time Sync="TRUE">11275700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\fphqsan\frapprojects\firehistory\fire2007\final_geodatabase\fire07_01_tn27.mdb</srcused><date Sync="TRUE">20080606</date><time Sync="TRUE">15083800</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\lueg-gis\data\dplu-users\mturner\Temp\fire07_1.mdb</srcused><date Sync="TRUE">20080611</date><time Sync="TRUE">14514500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\lueg-gis\data\dplu-users\mturner\Temp\fire07_1.mdb</srcused><date Sync="TRUE">20080612</date><time Sync="TRUE">10474900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\lueg-gis\data\dplu-users\mturner\Temp\fire07_1.mdb</srcused><date Sync="TRUE">20080612</date><time Sync="TRUE">11122900</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\lueg-gis\data\dplu-users\mturner\Temp\SD County Fire History.mdb</srcused><date Sync="TRUE">20080612</date><time Sync="TRUE">14272600</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\lueg-gis\data\dplu-users\mturner\Temp\fire07_1.mdb</srcused><date Sync="TRUE">20080701</date><time Sync="TRUE">11173700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20080723</date><time Sync="TRUE">11201000</time></procstep></lineage>
+		<posacc><horizpa/></posacc><complete>This is the most complete digital record of fire history in California. However it is still incomplete in many respects. Fires may be missing altogether or have missing or incorrect attribute data. Some fires may be missing because historical records were lost or damaged, were too small for the minimum cutoffs, had inadequate documentation or have not yet been incorporated into the database.  There are 10 fires with no dates, they are being investigated and will be completed in the next update.
+
+Other errors with the fire perimeter database include duplicate fires and over-generalization. While the data capture process attempts to identify duplicate fires resulting from multiple data sources (i.e. the USFS and CDF both captured and submitted the fire perimeter), some duplicates may still exist. Additionally, over-generalization, particularly with large old fires may show unburned "islands" within the final perimeter as burned. Users of the fire perimeter database must exercise caution in application of the data. Careful use of the fire perimeter database will prevent users from drawing inaccurate or erroneous conclusions from the data</complete></dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="FIRE_HISTORY_THRU_2007">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">1365</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="FIRE_HISTORY_THRU_2007"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1365</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">32.783333</stdparll><stdparll Sync="TRUE">33.883333</stdparll><longcm Sync="TRUE">-116.250000</longcm><latprjo Sync="TRUE">32.166667</latprjo><feast Sync="TRUE">6561666.666667</feast><fnorth Sync="TRUE">1640416.666667</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><projcsn Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</projcsn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000025</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="FIRE_HISTORY_THRU_2007">
+			<enttyp>
+				<enttypl Sync="TRUE">FIRE_HISTORY_THRU_2007</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1365</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef>Internal feature number</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">YEAR_</attrlabl><attalias Sync="TRUE">YEAR_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Year fire started</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">UNIT_ID</attrlabl><attalias Sync="TRUE">UNIT_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdomv><edom><edomv>AEU</edomv><edomvd>Amador-El Dorado CDF Unit</edomvd></edom><edom><edomv>AFV</edomv><edomvd>Vandenberg Air Force Base</edomvd></edom><edom><edomv>ANF</edomv><edomvd>Angeles National Forest</edomvd></edom><edom><edomv>APF</edomv><edomvd>US Army Post FD (Hunter Ligget)</edomvd></edom><edom><edomv>BBD</edomv><edomvd>Bakersfield District BLM</edomvd></edom><edom><edomv>BDF</edomv><edomvd>San Bernardino National Forest</edomvd></edom><edom><edomv>BDU</edomv><edomvd>San Bernardino CDF Unit</edomvd></edom><edom><edomv>BEU</edomv><edomvd>Monterey-San Benito CDF Unit</edomvd></edom><edom><edomv>BNP</edomv><edomvd>Lava Beds National Monument</edomvd></edom><edom><edomv>BTU</edomv><edomvd>Butte CDF Unit</edomvd></edom><edom><edomv>CAP</edomv><edomvd>Cabrillo National Monument</edomvd></edom><edom><edomv>CCD</edomv><edomvd>Carson City District BLM</edomvd></edom><edom><edomv>CDD</edomv><edomvd>CA Desert District BLM</edomvd></edom><edom><edomv>CNF</edomv><edomvd>Cleveland National Forest</edomvd></edom><edom><edomv>CNP</edomv><edomvd>Channel Islands National Park</edomvd></edom><edom><edomv>CRB</edomv><edomvd>Camp Roberts Military Base</edomvd></edom><edom><edomv>CZU</edomv><edomvd>San Mateo-Santa Cruz CDF Unit</edomvd></edom><edom><edomv>DPP</edomv><edomvd>Devils Postpile National Monument</edomvd></edom><edom><edomv>DVP</edomv><edomvd>Death Valley National Park</edomvd></edom><edom><edomv>ENF</edomv><edomvd>Eldorado National Forest</edomvd></edom><edom><edomv>EOP</edomv><edomvd>Eugene O'Neill National Historic Site</edomvd></edom><edom><edomv>FKU</edomv><edomvd>Fresno-Kings CDF Unit</edomvd></edom><edom><edomv>FPP</edomv><edomvd>Fort Point National Historic Site</edomvd></edom><edom><edomv>GNP</edomv><edomvd>Golden Gate National Park</edomvd></edom><edom><edomv>HUU</edomv><edomvd>Humboldt-Del Norte CDF Unit</edomvd></edom><edom><edomv>INF</edomv><edomvd>Inyo National Forest</edomvd></edom><edom><edomv>JMP</edomv><edomvd>John Muir National Historic Site</edomvd></edom><edom><edomv>JTP</edomv><edomvd>Joshua Tree National Monument</edomvd></edom><edom><edomv>KNF</edomv><edomvd>Klamath National Forest</edomvd></edom><edom><edomv>KNP</edomv><edomvd>Sequoia-Kings Canyon National Park</edomvd></edom><edom><edomv>KRN</edomv><edomvd>Kern County</edomvd></edom><edom><edomv>LAC</edomv><edomvd>Los Angeles County</edomvd></edom><edom><edomv>LMU</edomv><edomvd>Lassen-Modoc CDF Unit</edomvd></edom><edom><edomv>LNF</edomv><edomvd>Lassen National Forest</edomvd></edom><edom><edomv>LNP</edomv><edomvd>Lassen Volcanic National Park</edomvd></edom><edom><edomv>LNU</edomv><edomvd>Sonoma-Lake-Napa CDF Unit</edomvd></edom><edom><edomv>LPF</edomv><edomvd>Los Padres National Forest</edomvd></edom><edom><edomv>MDF</edomv><edomvd>Modoc National Forest</edomvd></edom><edom><edomv>MEU</edomv><edomvd>Mendocino CDF Unit</edomvd></edom><edom><edomv>MMU</edomv><edomvd>Merced-Mariposa CDF Unit</edomvd></edom><edom><edomv>MNF</edomv><edomvd>Mendocino National Forest</edomvd></edom><edom><edomv>MNP</edomv><edomvd>Mojave National Park</edomvd></edom><edom><edomv>MRN</edomv><edomvd>Marin County</edomvd></edom><edom><edomv>MVU</edomv><edomvd>San Diego CDF Unit</edomvd></edom><edom><edomv>MWP</edomv><edomvd>Muir Woods National Monument</edomvd></edom><edom><edomv>NEU</edomv><edomvd>Nevada-Yuba-Placer CDF Unit</edomvd></edom><edom><edomv>NOD</edomv><edomvd>Northern CA District</edomvd></edom><edom><edomv>ORC</edomv><edomvd>Orange County</edomvd></edom><edom><edomv>PIP</edomv><edomvd>Pinnacles National Monument</edomvd></edom><edom><edomv>PNF</edomv><edomvd>Plumas National Forest</edomvd></edom><edom><edomv>PSF</edomv><edomvd>Presidio of San Francisco</edomvd></edom><edom><edomv>RNP</edomv><edomvd>Point Reyes National Seashore</edomvd></edom><edom><edomv>RRU</edomv><edomvd>Riverside CDF Unit</edomvd></edom><edom><edomv>RWP</edomv><edomvd>Redwood National Park</edomvd></edom><edom><edomv>SBC</edomv><edomvd>Santa Barbara County</edomvd></edom><edom><edomv>SCU</edomv><edomvd>Santa Clara CDF Unit</edomvd></edom><edom><edomv>SHF</edomv><edomvd>Shasta-Trinity National Forest</edomvd></edom><edom><edomv>SHU</edomv><edomvd>Shasta-Trinity CDF Unit</edomvd></edom><edom><edomv>SKU</edomv><edomvd>Siskiyou CDF Unit</edomvd></edom><edom><edomv>SLU</edomv><edomvd>San Luis Obispo CDF Unit</edomvd></edom><edom><edomv>SMP</edomv><edomvd>Santa Monica Mountains National Recreation Area</edomvd></edom><edom><edomv>SNF</edomv><edomvd>Sierra National Forest</edomvd></edom><edom><edomv>SNU</edomv><edomvd>Sonoma CDF Unit</edomvd></edom><edom><edomv>SQF</edomv><edomvd>Sequoia National Forest</edomvd></edom><edom><edomv>SRF</edomv><edomvd>Six Rivers National Forest</edomvd></edom><edom><edomv>STF</edomv><edomvd>Stanislaus National Forest</edomvd></edom><edom><edomv>TCU</edomv><edomvd>Tuolumne-Calaveras CDF Unit</edomvd></edom><edom><edomv>TGU</edomv><edomvd>Tehama-Glenn CDF Unit</edomvd></edom><edom><edomv>TMU</edomv><edomvd>Lake Tahoe Basin Management Unit</edomvd></edom><edom><edomv>TNF</edomv><edomvd>Tahoe National Forest</edomvd></edom><edom><edomv>TOI</edomv><edomvd>Toiyabe National Forest</edomvd></edom><edom><edomv>TUU</edomv><edomvd>Tulare CDF Unit</edomvd></edom><edom><edomvd>Ventura County</edomvd><edomv>VNC</edomv></edom><edom><edomv>WNP</edomv><edomvd>Whiskeytown National Recreation Area</edomvd></edom><edom><edomv>YNP</edomv><edomvd>Yosemite National Park</edomvd></edom></attrdomv><attrdef>Code for unit of responsible agency where fire started (Refer to Unit_ID in Overview)</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">FIRE_NUM</attrlabl><attalias Sync="TRUE">FIRE_NUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>Number assigned to fire by responsible agency.  Usually six numbers, but can contain letters.</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">FIRE_NAME</attrlabl><attalias Sync="TRUE">FIRE_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>Name assigned to fire by responsible agency</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">ALARM_DATE</attrlabl><attalias Sync="TRUE">ALARM_DATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">34</attwidth><attrdef>Date fire was reported to agency  YYYYMMDD</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">CONT_DATE</attrlabl><attalias Sync="TRUE">CONT_DATE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Date fire was contained or stopped.  Contained is defined as having a line around the fire stopping its growth. YYYYMMDD</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">C_METHOD</attrlabl><attalias Sync="TRUE">C_METHOD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>GPS Ground</edomvd></edom><edom><edomv>2</edomv><edomvd>GPS Air </edomvd></edom><edom><edomv>3</edomv><edomvd>Infrared</edomvd></edom><edom><edomv>4</edomv><edomvd>Other imagery</edomvd></edom><edom><edomv>5</edomv><edomvd>Photo Interpretation</edomvd></edom><edom><edomv>6</edomv><edomvd>Hand Drawn</edomvd></edom><edom><edomv>7</edomv><edomvd>Mixed Collection Methods</edomvd></edom><edom><edomv>8</edomv><edomvd>Unknown</edomvd></edom></attrdomv><attrdef>Method used to capture fire perimeter data (Refer to C_Method code in Overview)</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">CAUSE</attrlabl><attalias Sync="TRUE">CAUSE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>Lightning</edomvd></edom><edom><edomv>2</edomv><edomvd>Equipment Use</edomvd></edom><edom><edomv>3</edomv><edomvd>Smoking</edomvd></edom><edom><edomv>4</edomv><edomvd>Campfire</edomvd></edom><edom><edomv>5</edomv><edomvd>Debris</edomvd></edom><edom><edomv>6</edomv><edomvd>Railroad</edomvd></edom><edom><edomv>7</edomv><edomvd>Arson</edomvd></edom><edom><edomv>8</edomv><edomvd>Playing with fire</edomvd></edom><edom><edomv>9</edomv><edomvd>Miscellaneous</edomvd></edom><edom><edomv>10</edomv><edomvd>Vehicle</edomvd></edom><edom><edomvd>Powerline</edomvd><edomv>11</edomv></edom><edom><edomv>12</edomv><edomvd>Firefighter Training</edomvd></edom><edom><edomv>13</edomv><edomvd>Non-Firefighter Training</edomvd></edom><edom><edomv>14</edomv><edomvd>Unknown / Unidentified</edomvd></edom><edom><edomv>15</edomv><edomvd>Structure</edomvd></edom><edom><edomv>16</edomv><edomvd>Aircraft</edomvd></edom><edom><edomv>17</edomv><edomvd>Volcanic</edomvd></edom><edom><edomv>18</edomv><edomvd>Escaped Prescribed Burn</edomvd></edom><edom><edomv>19</edomv><edomvd>Illegal Alien Campfire</edomvd></edom></attrdomv><attrdef>Reason fire ignited</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">INC_NUM</attrlabl><attalias Sync="TRUE">INC_NUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>The Incident number; a consecutive number assigned by the Emergency Command Center of the responsible agency for the fire.</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">UNIQUE_ID</attrlabl><attalias Sync="TRUE">UNIQUE_ID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">17</attwidth><attrdef>A combination of the year the fire occurred, the unit of the 			AGENCY and either the INC_NUM or FIRE_NUM.  This is NOT a unique number.</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">OBJECTIVE</attrlabl><attalias Sync="TRUE">OBJECTIVE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdomv><edom><edomv>1</edomv><edomvd>Suppression (Wildfire)</edomvd></edom><edom><edomv>2</edomv><edomvd>Resource Benefit (Wildland Fire Use)</edomvd></edom></attrdomv><attrdef>Either suppression or resource benefit (a fire that is allowed to burn in order to encourage environmental health. (Refer to Objective code in Overview)</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">COST</attrlabl><attalias Sync="TRUE">COST</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Estimated dollar cost of damage or loss caused by the fire</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">COMMENTS</attrlabl><attalias Sync="TRUE">COMMENTS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">80</attwidth><attrdef>Comments about the fire</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">REPORT_AC</attrlabl><attalias Sync="TRUE">REPORT_AC</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Estimated area (in acres) consumed in fire</attrdef><atnumdec Sync="TRUE">11</atnumdec><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">13</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">PERIMETER</attrlabl><attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Calculated fire perimeter </attrdef><atnumdec Sync="TRUE">11</atnumdec><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">ACRES_CALC</attrlabl><attalias Sync="TRUE">ACRES_CALC</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Calculated acres for each perimeter</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">DAY_</attrlabl><attalias Sync="TRUE">DAY_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Day of the year when the fire incident occurred</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">CAUSECODE</attrlabl><attalias Sync="TRUE">CAUSECODE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Coded value of the cause of the fire incident (Refer to Causecode in Overview)</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">MONTH_</attrlabl><attalias Sync="TRUE">MONTH_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Month of the year when the fire incident occurred</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">GIS_ACRES</attrlabl><attalias Sync="TRUE">GIS_ACRES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">25</attwidth><attrdef>Calculated area in acres based on Shape_Area.</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">AGENCY_MAT</attrlabl><attalias Sync="TRUE">AGENCY_MAT</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Code of agency responsible for fire (Refer to Agency code)</attrdef><attrdefs>County of San Diego, Dept. of Planning and Land Use</attrdefs></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>Length of feature in internal units</attrdef><attrdefs>ESRI</attrdefs></attr></detailed>
+		<overview><eadetcit>As of Jan 1st, 2007 the term CAL FIRE will be used in reference to CDF and The California Department of Fosetry and Fire Protection. 2006 fire perimeters still use the term "CDF". </eadetcit><eaover>AGENCY CODE
+CDF - CalFire 
+BLM - Bureau of Land Management
+CCO - Contract Counties
+DOD - Department of Defense
+LRA - Local response area
+USF - United States Forest Service
+
+
+UNIT_ID = a three letter designation of the "unit of responsible agency where the fire started".
+MVU = San Diego CDF Unit
+CCD = Carson City District BLM
+CNF = Cleveland National Forest
+
+CAUSECODE = coded value of the cause of the fire incident
+1 - Lightning
+2 - Equipment Use
+3 - Smoking
+4 - Campfire
+5 - Debris
+6 - Railroad
+7 - Arson
+8 - Playing with fire
+9 - Miscellaneous
+10 - Vehicle
+11 - Powerline
+12 - Firefigher training
+13 - Non-firefighter training
+14 - Unknown / Unidentified
+15 - Structure
+16 - Aircraft
+17 - Volcanic
+18 - Escaped Prescribed Burn
+19 - Illegal Alien campfire
+
+MCP = Marine Corp Pendelton
+ORC = Orange County
+RRU = Riverside CDF unit
+ 
+C_METHOD = method used to capture fire perimeter data
+1 - GPS ground
+2 - GPS air
+3 - Infrared
+4 - Other Imagery
+5 - Photo Interpretation
+6 - Hand Drawn
+7 - Mixed Collection methods
+8 - Unknown
+ 
+OBJECTIVE
+1 - Suppression
+2 - Resource Benefit (Wildland Fire Use)</eaover></overview></eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>FRAP Data Librarian</cntper>
+					<cntorg>CAL FIRE-FRAP</cntorg>
+				</cntperp>
+				<cntpos>FRAP Data Librarian</cntpos>
+				<cntaddr>
+					<address>1300 U Street</address>
+					<city>Sacramento</city>
+					<state>CA</state>
+					<postal>95818</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>916-327-3939</cntvoice>
+				<cntfax>916-324-1180</cntfax>
+				<cntemail>FRAPdatacontact@fire.ca.gov</cntemail>
+				<cnttdd>916-327-3939</cnttdd><hours>M-F 8-5</hours></cntinfo>
+		</distrib>
+		<resdesc>SanDiegoFireHistory</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>Medium (10-50MB)</transize>
+					<dssize>Medium (10-50MB)</dssize><formname>Geodatabase (GDB)</formname><formvern>9.2</formvern></digtinfo>
+			</digform>
+			<fees>none</fees><ordering>Publicly available at no cost through the FRAP Information and Data Center website</ordering></stdorder>
+		<distliab>DISCLAIMER
+The State of California and the Department of Forestry and Fire Protection make no representations or warranties regarding the accuracy of data or maps.  The user will not seek to hold the State or the Department liable under any circumstances for any damages with respect to any claim by the user or any third party on account of or arising from the use of data or maps.
+There are no restrictions on distribution of the data by users. However, users are encouraged to refer others to the Department of Forestry and Fire Protection to acquire the data, in case updated data become available.</distliab><custom>not available</custom></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20080728</metd>
+		<metc>
+			<cntinfo>
+				<cntperp>
+					<cntper>FRAP Fire and Fuels Specialist</cntper>
+					<cntorg>CDF-FRAP</cntorg>
+				</cntperp>
+				<cntpos>FRAP Fire and Fuels Specialist</cntpos>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>1300 U Street</address>
+					<city>Sacramento</city>
+					<state>CA</state>
+					<postal>95818</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(916) 327-3939</cntvoice>
+				<cntfax>(916) 324-1180</cntfax>
+				<cntemail>FRAPdatacontact@fire.ca.gov</cntemail>
+				<hours>M-F 8-5</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><ModDate>20080728</ModDate><ModTime>14045600</ModTime><CreaDate>20080723</CreaDate><CreaTime>11201000</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20080728</SyncDate><SyncTime>14045600</SyncTime><DataProperties><lineage><Process Name="RepairGeometry_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20070622" Time="115146">RepairGeometry P:\firehistory\fire2006\errors\fire06_2_tn27.mdb\firep_06_2 P:\firehistory\fire2006\errors\fire06_2_tn27.mdb\firep_06_2</Process><Process Name="RepairGeometry_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20070622" Time="120610">RepairGeometry P:\firehistory\fire2006\errors\fire06_2_tn27.mdb\firep_06_2 P:\firehistory\fire2006\errors\fire06_2_tn27.mdb\firep_06_2</Process><Process Name="RepairGeometry_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20070622" Time="141946">RepairGeometry P:\firehistory\fire2006\errors\fire06_3_tn27.mdb\firep06_3 P:\firehistory\fire2006\errors\fire06_3_tn27.mdb\firep06_3</Process><Process Name="Project_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20080311" Time="061814">Project C:\updates\firehis\2007\CALFIRE\fire06_3_tn27.mdb\firep06_3 C:\updates\firehis\2007\CALFIRE\fire06_3_tn27.mdb\firep06_3_talb83 PROJCS['NAD_1983_California_Teale_Albers',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',-4000000.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',34.0],PARAMETER['Standard_Parallel_2',40.5],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] NAD_1927_To_NAD_1983_NADCON PROJCS['NAD_1927_California_Teale_Albers',GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',-4000000.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',34.0],PARAMETER['Standard_Parallel_2',40.5],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]]</Process><Process Name="Project_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20080317" Time="150512">Project C:\updates\firehis\2007\CALFIRE\fire06_3_tn27.mdb\firep06_3_talb83_update20080317 C:\updates\firehis\2007\CALFIRE\fire06_3_tn27.mdb\firep06_4_tn27_update20080317 PROJCS['NAD_1927_California_Teale_Albers',GEOGCS['GCS_North_American_1927',DATUM['D_North_American_1927',SPHEROID['Clarke_1866',6378206.4,294.9786982]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',-4000000.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',34.0],PARAMETER['Standard_Parallel_2',40.5],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]] NAD_1927_To_NAD_1983_NADCON PROJCS['NAD_1983_California_Teale_Albers',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',-4000000.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',34.0],PARAMETER['Standard_Parallel_2',40.5],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]]</Process><Process Name="FeatureClassToFeatureClass_4" ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20080602" Time="123146">FeatureClassToFeatureClass P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2 P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\fire_perimeters firep07_2_all_imported # "YEAR_ YEAR_ true true false 4 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,YEAR_,-1,-1;STATE STATE true true false 2 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,STATE,-1,-1;UNIT_ID UNIT_ID true true false 3 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,UNIT_ID,-1,-1;FIRE_NUM FIRE_NUM true true false 8 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,FIRE_NUM,-1,-1;FIRE_NAME FIRE_NAME true true false 34 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,FIRE_NAME,-1,-1;AGENCY AGENCY true true false 3 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,AGENCY,-1,-1;ALARM_DATE ALARM_DATE true true false 4 Long 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,ALARM_DATE,-1,-1;CONT_DATE CONT_DATE true true false 4 Long 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,CONT_DATE,-1,-1;C_METHOD C_METHOD true true false 2 Short 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,C_METHOD,-1,-1;CAUSE CAUSE true true false 2 Short 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,CAUSE,-1,-1;INC_NUM INC_NUM true true false 8 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,INC_NUM,-1,-1;UNIQUE_ID UNIQUE_ID true true false 17 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,UNIQUE_ID,-1,-1;OBJECTIVE OBJECTIVE true true false 2 Short 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,OBJECTIVE,-1,-1;COST COST true true false 4 Long 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,COST,-1,-1;COMMENTS COMMENTS true true false 80 Text 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,COMMENTS,-1,-1;REPORT_AC REPORT_AC true true false 8 Double 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,REPORT_AC,-1,-1;GIS_Acres GIS_Acres true true false 4 Float 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,GIS_Acres,-1,-1;SHAPE_Length SHAPE_Length false true true 8 Double 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,SHAPE_Length,-1,-1;SHAPE_Area SHAPE_Area false true true 8 Double 0 0 ,First,#,P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\firep07_2,SHAPE_Area,-1,-1" # P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\fire_perimeters\firep07_2_all_imported</Process><Process Name="RepairGeometry_5" ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20080602" Time="123722">RepairGeometry P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\fire_perimeters\firep07_2_all_imported P:\firehistory\fire2007\Statewide_2007\firep07_2_tn27.mdb\fire_perimeters\firep07_2_all_imported</Process><Process Name="RepairGeometry_3" ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20080603" Time="164324">RepairGeometry P:\firehistory\fire2007\final_geodatabase\fire07_01_tn27.mdb\fire_perimeters\firep07_1 P:\firehistory\fire2007\final_geodatabase\fire07_01_tn27.mdb\fire_perimeters\firep07_1</Process><Process Name="RepairGeometry_4" ToolSource="C:\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\RepairGeometry" Date="20080603" Time="164646">RepairGeometry P:\firehistory\fire2007\final_geodatabase\fire07_01_tn27.mdb\fire_perimeters\firep07_1 P:\firehistory\fire2007\final_geodatabase\fire07_01_tn27.mdb\fire_perimeters\firep07_1</Process><Process Name="Project_5" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20080612" Time="104754">Project SanDiegoFireHistory H:\Temp\fire07_1.mdb\SanDiegoFireHistory_Project PROJCS['NAD_1983_StatePlane_California_VI_FIPS_0406_Feet',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',6561666.666666666],PARAMETER['False_Northing',1640416.666666667],PARAMETER['Central_Meridian',-116.25],PARAMETER['Standard_Parallel_1',32.78333333333333],PARAMETER['Standard_Parallel_2',33.88333333333333],PARAMETER['Latitude_Of_Origin',32.16666666666666],UNIT['Foot_US',0.3048006096012192]] # PROJCS['NAD_1983_California_Teale_Albers',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',-4000000.0],PARAMETER['Central_Meridian',-120.0],PARAMETER['Standard_Parallel_1',34.0],PARAMETER['Standard_Parallel_2',40.5],PARAMETER['Latitude_Of_Origin',0.0],UNIT['Meter',1.0]]</Process></lineage></DataProperties><MetaID>{B6227DB4-73D8-47C6-9243-C9C21AFB34B7}</MetaID></Esri><mdDateSt Sync="TRUE">20080728</mdDateSt><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">FIRE_HISTORY_THRU_2007</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">6144859.062326</westBL><eastBL Sync="TRUE">6606081.561106</eastBL><northBL Sync="TRUE">2185279.697913</northBL><southBL Sync="TRUE">1773950.787149</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-117.619747</westBL><eastBL Sync="TRUE">-116.104032</eastBL><northBL Sync="TRUE">33.66413</northBL><southBL Sync="TRUE">32.526233</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\BLACK-XP\C$\SDEUpdates\Fire History\FIRE_HISTORY_THRU_2007.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">5.188</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="FIRE_HISTORY_THRU_2007"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1365</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</identCode></refSysID></RefSystem></refSysInfo></metadata>

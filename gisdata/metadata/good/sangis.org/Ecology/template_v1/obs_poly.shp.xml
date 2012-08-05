@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>County of San Diego -  Land Use and Environment Group</origin>
+				<pubdate>2009</pubdate>
+				<title Sync="TRUE">obs_poly</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<othercit>
+SanBIOS was modifeid from the Count of San Diego's Department of Planning and Land Use's Biological Observation Database (BOD).  
+
+Background of the BOD:
+The County of San Diego owns or is in the process of acquiring key lands within the Multiple Species Conservation Program (MSCP) preserve area.  The MSCP Biological Monitoring Plan requires monitoring of covered plant species.  The County of San Diego was awarded two Natural Communities Conservation Planning (NCCP) Program Local Assistance Grants to accomplish the first phase of the monitoring program, i.e., collecting baseline data for covered plant species.  The study area of this grant was amended to include lands in San Vicente (Boys and Girl's Club) Ecological Reserve that were originally included in the statement of work for the NCCP Local Assistance grant No. P0050008.  The lands in the total amended study area, from north to south are open space areas in Santa Fe Valley, County-owned portions of Lusardi Creek, open space areas conveyed to the County of San Diego in 4S Ranch, San Vicente Open Space Preserve, McGinty Mountain preserve lands, Hollenbeck Canyon Wildlife Area, and lands north and south of the eastern arm of Otay Lakes.  Portions of Rancho Jamul Ecological Reserve were also surveyed.
+</othercit>
+				<onlink Sync="TRUE">\\lueg-gis\data\dplu-projects\SanBIOS\template\obs_poly.shp</onlink>
+				<ftname Sync="TRUE">obs_poly</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>SANBIOS VERSION 1: THIS DATASET IS UPDATED FREQUENTLY.  DOWNLOAD CURRENT VERSION AT SANGIS.ORG.  Created in 2009, the SanBIOS database serves as a single repository of species observations collected by various departments within the County of San Diego's Land Use and Environment Group.  Coordination of biological species tracking between departments ensures a complete dataset, meeting a specific data standard, and will provide the best available information to environmental scientists, advocacy groups, all County departments, and various agencies.</abstract>
+			<purpose>This catalog of species observations have been recorded by professional biologists from the County of San Diego as well as from various other agencies and firms.  These data serve many functions: they serve as a baseline catalog of species records in the MSCP preserve systems (including invasive species) in the incorporated areas of San Diego County, they are used to direct the location of future permanent plot surveys and for uses in various monitoring projects, they are used in the testing and validation of predictive species niche models and to comply with CEQA regulations, and they are used to identify and monitor invasive species.  It is important to note these observations are an indication of confirmed species presence at the time of the survey but offer no indication of species absence.  The types of surveys performed to collect these data were variable, ranging from highly organized and standardized surveys to random observations based on change.  SanBIOS was constructed to be interchangeable with the State of California's Biological Information and Observation System (BIOS) database (http://bios.dfg.ca.gov/).</purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>1/22/1856</begdate>
+					<enddate>2/09/2009</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-117.702817</westbc>
+				<eastbc Sync="TRUE">-116.427378</eastbc>
+				<northbc Sync="TRUE">33.867248</northbc>
+				<southbc Sync="TRUE">32.579130</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">6120608.672702</leftbc><rightbc Sync="TRUE">6507027.999927</rightbc><bottombc Sync="TRUE">1793522.874881</bottombc><topbc Sync="TRUE">2259241.080910</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>MSCP</themekey>
+				<themekey>Management</themekey>
+				<themekey>Inventory</themekey>
+				<themekey>Naturalism</themekey>
+				<themekey>CEQA</themekey>
+				<themekey>Flora</themekey>
+				<themekey>Fauna</themekey>
+				<themekey>Sensitive Species</themekey>
+				<themekey>Baseline Surveys</themekey>
+				<themekey>Monitoring</themekey>
+			</theme>
+			<place>
+				<placekt>preserve</placekt>
+				<placekey>San Diego</placekey>
+			</place>
+		</keywords>
+		<accconst>These data are open for public and private consumption.</accconst>
+		<useconst>Limited to the SanGIS users agreement</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of San Diego, Department of Planning and Land Use</cntorg>
+					<cntper>Melanie Casey</cntper>
+				</cntorgp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>5201 Ruffin Road</address>
+					<address>Suite B</address>
+					<city>San Diego</city>
+					<state>CA</state>
+					<postal>92123-1666</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(858) 694-3851</cntvoice>
+				<cntfax>(858) 694-3373</cntfax>
+				<cntemail>melanie.casey@sdcounty.ca.gov</cntemail>
+				<hours>8-5 M-F</hours>
+				<cntinst>E-mail Please</cntinst>
+			</cntinfo>
+		</ptcontac>
+		<datacred>SanBIOS database is a modified version of DPLU's Biological Observation Database</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<logic>These data are believed to be logically consistent, though no tests were performed.</logic>
+		<complete>Data represents areas that could potentially change in the future. Data is in continual maintenance</complete>
+		<lineage>
+			<procstep>
+				<procdesc>Data collected - through GPS, hardcopy maps, historical documents, or field survey.  Data submitted to Department of Planning and Land Use, updated into the geodatabase, and then uploaded into SDE.  All field staff and departments are given a blank feature class for collection in order to adhere to standards developed.</procdesc>
+				<srcused>\\dplu2\projects\20050301_biological_observation_database\Geodatabase\BOD.mdb</srcused>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>County of San Diego, Department of Planning and Land Use</cntorg>
+							<cntper>Melanie Casey</cntper>
+						</cntorgp>
+						<cntpos>GIS Analyst</cntpos>
+						<cntvoice>858.694.3851</cntvoice>
+						<cntemail>melanie.casey@sdcounty.ca.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>C:\DOCUME~1\PLUM1C~1.LUE\LOCALS~1\Temp\xml20E.tmp</srcused>
+				<procdate>20090211</procdate>
+				<proctime>09454700</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\PLUM1C~1.LUE\LOCALS~1\Temp\xml80.tmp</srcused><procdate Sync="TRUE">20090304</procdate><proctime Sync="TRUE">13080000</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\lueg-gis\data\dplu-projects\SanBIOS\template\SANBIOS.gdb</srcused><procdate Sync="TRUE">20090406</procdate><proctime Sync="TRUE">13111700</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="obs_poly">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="obs_poly"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">32.783333</stdparll><stdparll Sync="TRUE">33.883333</stdparll><longcm Sync="TRUE">-116.250000</longcm><latprjo Sync="TRUE">32.166667</latprjo><feast Sync="TRUE">6561666.666667</feast><fnorth Sync="TRUE">1640416.666667</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="obs_poly">
+			<enttyp>
+				<enttypl Sync="TRUE">obs_poly</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Notes</attrlabl>
+				<attrdef>Pertinent information not captured by attribute fields</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">Notes</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">125</attwidth></attr>
+			<attr>
+				<attrlabl>spID</attrlabl>
+				<attrdef>Species code associated with name of species</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">spID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>Observer</attrlabl>
+				<attrdef>Name of the person or agency making the observation</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">Observer</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>SourceID</attrlabl>
+				<attrdef>Source code associated with the source of the observation, such as a historical document or a field survey</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">SourceID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>VoucherID</attrlabl>
+				<attrdef>Voucher number assigned by an institution confirming the identification of an individual specimen</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">VoucherID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth></attr>
+			<attr>
+				<attrlabl>SiteName</attrlabl>
+				<attrdef>Known name of the site (if any)</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">SiteName</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">150</attwidth></attr>
+			<attr>
+				<attrlabl>LifeID</attrlabl>
+				<attrdef>The life form code differentiates the observations into plant or animal categories</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">LifeID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>DeptID</attrlabl>
+				<attrdef>Department code listing which department conducted the survey</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">DeptID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>POINT_X</attrlabl>
+				<attrdef>X coordinate of the point</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">POINT_X</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>POINT_Y</attrlabl>
+				<attrdef>Y coordinate of the point</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">POINT_Y</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl>ObsDate</attrlabl>
+				<attrdef>Date of the observation</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">ObsDate</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl>CountofInd</attrlabl>
+				<attrdef>Number of individuals present or occurring at the time of the observation</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">CountofInd</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>OriginID</attrlabl>
+				<attrdef>Code associated with the origin of the spatial data, such as a GPS unit or a field map</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">OriginID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>PCode</attrlabl>
+				<attrdef>Code associated with the precision of an individual point location</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">PCode</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>ProtocolNa</attrlabl>
+				<attrdef>Name of protocol employed</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">ProtocolNa</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr>
+				<attrlabl>ProtocolDe</attrlabl>
+				<attrdef>Description of protocol employed</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">ProtocolDe</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>SiteNotes</attrlabl>
+				<attrdef>More detailed site information, such as a measured distance</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">SiteNotes</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>DBEditDate</attrlabl>
+				<attrdef>Date database was created or edited</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">DBEditDate</attalias><attrtype Sync="TRUE">Date</attrtype><attwidth Sync="TRUE">8</attwidth></attr>
+			<attr>
+				<attrlabl>SiteQualID</attrlabl>
+				<attrdef>Code associated with the quality of the site location</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">SiteQualID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr>
+			<attr>
+				<attrlabl>SrcDocName</attrlabl>
+				<attrdef>Title of the source document name, if applicable</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">SrcDocName</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth></attr>
+			<attr>
+				<attrlabl>DBSteward</attrlabl>
+				<attrdef>Name of the department analyst submitting the biological information</attrdef>
+				<attrdefs>County of San Diego</attrdefs>
+				<attalias Sync="TRUE">DBSteward</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">SHAPE_Leng</attrlabl><attalias Sync="TRUE">SHAPE_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE_Area</attrlabl><attalias Sync="TRUE">SHAPE_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<overview>
+			<eadetcit>
+Precision:
+
+PCode	PName
+1	Within a 160 m diameter
+2	Within a 500 m diameter
+3	Within a 1 km diameter
+4	Within a 2 km diameter
+5	Within a 4 km diameter
+6	Within a 8 km diameter
+</eadetcit>
+			<eadetcit>
+Site Quality:
+
+SiteQualID	SiteQualDe
+1	Excellent
+2	Good
+3	Fair
+4	Poor
+98	Not Applicable
+99	Unknown
+</eadetcit>
+			<eadetcit>
+SourceID:
+
+SourceID	source_nam
+1	Published information
+2	Voucher specimen
+3	Gray literature
+4	Anecdotal accounts
+5	Field notes
+</eadetcit>
+			<eadetcit>
+LifeID:
+
+LifeID	LifeForm
+1	Animal - Amphibian
+2	Animal - Bird
+3	Animal - Fish
+4	Animal - Invertebrate
+5	Animal - Reptile
+6	Animal - Mammal
+7	Plant
+</eadetcit>
+			<eadetcit>
+DeptID:
+
+DeptID	DeptName
+1	Ag Weights and Measures
+2	Environmental Health
+3	Parks and Recreation
+4	Planning and Land Use
+5	Public Works
+</eadetcit>
+			<eadetcit>
+OriginID:
+
+OriginID	OriginDesc
+1	GPS
+2	Digital data from outside source
+3	Non-GPS coordinate
+4	Map
+5	Description
+</eadetcit>
+			<eadetcit>
+Species ID:
+
+spID	Latin Name	Common Name
+1	Brassica tournefortii	Saharan mustard
+2	Carpobrotus edulis	Iceplant
+3	Centaurea maculosa	Spotted knapweed
+4	Centaurea solstitialis	Yellow starthistle
+5	Chrysanthemum coronarium	Crown daisy
+6	Cortaderia jubata	Jubatagrass
+7	Cortaderia selloana	Pampasgrass
+8	Cytisus scoparius	Scotch broom
+9	Ehrharta calycina	Purple veldtgrass
+10	Eucalyptus globulus	Tasmanian blue gum
+11	Foeniculum vulgare	Fennel
+12	Genista monspessulana	French broom
+13	Lepidium latifolium	perennial pepperweed
+14	Leucanthemum vulgare	Ox eye daisy
+15	Myoporum laetum	Lollypop tree
+17	Phoenix canariensis	Canary Island date palm
+18	Rubus armeniacus	Himalaya blackberry
+19	Spartium junceum	Spanish broom
+20	Taeniatherum caputmedusae	Medusahead
+21	Tamarix ramosissima	Tamarisk
+22	Washingtonia robusta	Mexican fan palm
+23	Pipilo chlorurus	Green tailed towhee
+24	Lepomis cyanellus	Green sunfish
+25	Picoides villosus	Hairy woodpecker
+26	Sibaropsis hammittii	Hammitt's claycress
+27	Parabuteo unicinctus	Harris' hawk
+28	Zonotrichia querula	Harris' sparrow
+29	Messor andrei	Harvester ant
+30	Messor stoddardii	Harvester ant
+31	Catharus guttatus	Hermit thrush
+32	Hesperevax sparsiflora	Hesperevax sparsiflora
+33	Lasiurus cinereus	Hoary bat
+35	Mephitis mephitis holzneri	Holzner striped skunk
+36	Myrmecocystus mimicus	Honey pot ant
+37	Myrmecocystus testaceus	Honey pot ant
+38	Lophodytes cucullatus	Hooded merganser
+39	Eremophila alpestris actia	Horned lark
+40	Equus caballus	Horse
+41	Carpodacus mexicanus	House finch
+42	Mus musculus	House Mouse
+43	Troglodytes aedon	House wren
+44	Vireo huttoni	Hutton's vireo
+45	Malacothamnus aboriginum	Indian Valley bush mallow
+46	Menidia beryllina	Inland silverside
+47	Astragalus douglasii perstrictus	Jacumba milkvetch
+48	Perognathus longimembris internationalis	Jacumba little pcket mouse
+49	Stenopelmatus fuscus	Jerusalem cricket
+50	Charadrius vociferus	Killdeer
+51	Pyrgulopsis californiensis	Laguna mountain springsnail
+52	Heuchera brevistaminea	Laguna Mountains alum root
+53	Sorex ornatus	Lake shrew
+55	Ceanothus cyaneus	Lakeside lilac
+56	Ensatina eschscholtzii klauberi	Large blotched salamander
+57	Micropterus salmoides	Largemouth bass
+58	Myotis volans interior	Desert long legged myotis
+59	Chaetodipus penicillatus	Desert pocket mouse
+60	Notiosorex crawfordi	Desert shrew
+62	Crotalus cerastes	Desert sidewinder
+63	Sceloporus magister	Desert spiny lizard
+64	Gopherus agassizii	Desert tortoise
+65	Neotoma lepida	Desert woodrat
+66	Neotoma lepida gilva	Desert woodrat
+67	Crotalus ruber	Red diamond rattlesnake
+68	Hypsopsetta guttulata	Diamond turbot
+69	Bos taurus	Domestic cow
+70	Canis familiaris	Domestic dog
+71	Phalacrocorax auritus	Double crested cormorant
+72	Chaetodipus californicus femoralis	Dulzura pocket mouse
+73	Dipodomys simulans	Dulzura kangaroo rat
+74	Dipodomys simulans cabezonae	Dulzura kangaroo rat
+75	Dipodomys simulans simulans	Dulzura kangaroo rat
+76	Calochortus dunnii	Dunn's mariposa lily
+77	Neotoma fuscipes	Dusky footed wood rat
+78	Neotoma macrotis	Dusky footed woodrat
+80	Empidonax oberholseri	Dusky flycatcher
+81	Podiceps nigricollis	Eared grebe
+82	Sciurus niger	Eastern fox squirrel
+83	Sciurus carolinensis	Eastern gray squirrel
+84	Myotis leibii melanorhinus	Eastern small footed myotis
+85	Spilogale putorius	Eastern spotted skunk
+86	Spilogale putorius microrhina	Eastern spotted skunk
+87	Spilogale putorius phenax	Eastern spotted skunk
+88	Bursera microphylla	Small leaf elephant tree
+89	Baccharis vanessae	Encinitas baccharis
+90	Quercus engelmannii	Engelmann oak
+91	Anas penelope	Eurasian wigeon
+92	Sturnus vulgaris	European starling
+93	Calliandra eriophylla	Fairyduster
+94	Graptemys pseudogeographica	False map turtle
+95	Pimephales promelas	Fathead minnow
+96	Monardella hypoleuca lanata	Felt leaf rock mint
+97	Buteo regalis	Ferruginous hawk
+98	Polygala cornuta fishiae	Fish's milkwort
+99	Phrynosoma mcallii	Flat tailed horned lizard
+100	Forelius foetidus	Forelius foetidus
+101	Sterna forsteri	Forster's tern
+102	Passerella iliaca	Fox sparrow
+103	Myotis thysanodes	Fringed myotis
+104	Peromyscus maniculatus gambelii	Gambel's deer mouse
+105	Cryptantha ganderi	Gander's cryptantha
+106	Senecio ganderi	Gander's ragwort
+107	Packera ganderi	Gander's butterweed
+108	Thamnophis sirtalis	Garter snake
+109	Arundo donax	Giant reed
+110	Carassius auratus	Gold fish
+111	Pentachaeta aurea	Golden rayed pentachaeta
+112	Aquila chrysaetos canadensis	Golden eagle
+113	Holocarpha virgata elongata	Graceful tarplant
+114	Xantusia henshawi	Granite night lizard
+115	Sceloporus orcutti	Granite spiny lizard
+116	Ammodramus savannarum parpallidus	Grasshopper sparrow
+117	Empidonax wrightii	Gray flycatcher
+118	Urocyon cinereoargenteus	Gray fox
+119	Vireo vicinior	Gray vireo
+120	Quiscalus mexicanus	Great tailed grackle
+121	Ardea herodias	Great blue heron
+122	Ardea alba	Great egret
+123	Bubo virginianus	Great horned owl
+124	Geococcyx californianus	Greater roadrunner
+125	Eumops perotis californicus	Greater western mastiff bat
+126	Anser albifrons	Greater white fronted goose
+127	Chondestes grammacus	Lark sparrow
+128	Carduelis lawrencei	Lawrence's goldfinch
+129	Passerina amoena	Lazuli bunting
+130	Vireo bellii pusillus	Least Bell's vireo
+131	Ixobrychus exilis hesperis	Least bittern
+132	Lilium parryi	Lemon lily
+133	Leptosiphon parviflorus	Leptosiphon parviflorus
+134	Leptothorax andrei	Leptothorax andrei
+135	Leptothorax nevadensis	Leptothorax nevadensis
+136	Leptothorax nitens	Leptothorax nitens
+137	Leptothorax rugatulus	Leptothorax rugatulus
+138	Carduelis psaltria	Lesser goldfinch
+139	Chordeiles acutipennis	Lesser nighthawk
+140	Aythya affinis	Lesser scaup
+141	Tringa flavipes	Lesser yellowlegs
+142	Lessingia filaginifolia	Lessingia filaginifolia
+143	Rallus longirostris levipes	Light footed clapper rail
+144	Liometopum occidentale	Liometopum occidentale
+145	Egretta caerulea	Little blue heron
+146	Asio otus wilsonianus	Long eared owl
+147	Rhinocheilus lecontei	Long nosed snake
+148	Chorizanthe polygonoides longispina	Knotweed spineflower
+149	Chaetodipus formosus	Long tailed pocket mouse
+150	Chaetodipus formosus mesembrinus	Long tailed pocket mouse
+151	Mustela frenata	Long tailed weasel
+152	Mustela frenata latriostra	Long tailed weasel
+153	Myotis evotis	Long eared myotis
+155	Myotis volans	Long legged myotis
+156	Perognathus longimembris brevinasus	Los Angeles pocket mouse
+157	Vermivora luciae	Lucy's warbler
+158	Anas platyrhynchos	Mallard
+159	Cistothorus palustris	Marsh wren
+160	Canis latrans mearnsi	Mearns coyote
+161	Tamias merriami	Merriam's chipmunk
+163	Dipodomys merriami	Merriam's kangaroo rat
+164	Dipodomys merriami arenivagus	Merriam's kangaroo rat
+166	Pipistrellus hesperus merriami	Merriam bat
+167	Tadarida brasiliensis mexicana	Mexican free tailed bat
+168	Choeronycteris mexicana	Mexican long tongued bat
+170	Deinandra mohavensis	Mojave tarplant
+171	Monomorium ergatogyna	Monomorium ergatogyna
+172	Ensatina eschscholtzii	Monterey ensatina
+173	Ribes canthariforme	Moreno current
+174	Poecile gambeli	Mountain chickadee
+175	Felis concolor	Mountain lion
+176	Oreortyx pictus	Mountain quail
+177	Rana muscosa	Mountain yellow legged frog
+178	Zenaida macroura	Mourning dove
+179	Odocoileus hemionus	Mule deer
+180	Salvia munzii	Munz's sage
+181	Myrmica rugiventris	Myrmica rugiventris
+182	Chaetodipus penicillatus angustirostris	Narrow nosed desert pocket mouse
+183	Piperia leptopetala	Narrow petaled rein orchid
+184	Solenopsis xyloni	Native Southern fire ant
+185	Hypsiglena torquata	Night snake
+186	Nolina parryi	Nolina parryi
+188	Circus cyaneus hudsonius	Northern harrier
+189	Mimus polyglottos	Northern mockingbird
+190	Stelgidopteryx serripennis	Northern rough winged swallow
+192	Rattus norvegicus	Norway rat
+193	Picoides nuttallii	Nuttall's woodpecker
+194	Baeolophus inornatus	Oak titmouse
+195	Lilium humboldtii ocellatum	Ocellated humboldt lily
+196	Tapinoma sessile	Oderous house ant
+197	Contopus cooperi	Olive sided flycatcher
+198	Vermivora celata	Orange crowned warbler
+199	Cnemidophorus hyperythrus	Orange throated whiptail
+200	Brodiaea orcuttii	Orcutt's brodiaea
+201	Linanthus orcuttii	Orcutt's linanthus
+202	Xylorhiza orcuttii	Orcutt's woody aster
+203	Junco hyemalis oreganus	Oregon junco
+204	Pandion haliaetus	Osprey
+205	Pseudacris regilla	Pacific chorus frog
+206	Pituophis catenifer	Pacific gophersnake
+207	Perognathus longimembris pacificus	Pacific pocket mouse
+208	Procyon lotor psora	Pacific racoon
+209	Batrachoseps pacificus	Pacific slender salamander
+210	Leptocottus armatus	Pacific staghorn sculpin
+211	Hyla regilla	Pacific tree frog
+212	Chrysemys picta	Painted turtle
+213	Corynorhinus townsendii pallescens	Pale western big eared bat
+214	Antrozous pallidus	Pallid bat
+215	Antrozous pallidus minor	Pallid bat
+216	Antrozous pallidus pacificus	Pallid bat
+218	Chaetodipus fallax pallidus	Pallid San Diego pocket mouse
+219	Perognathus longimembris bangsi	Palm Springs pocket mouse
+220	Harpagonella palmeri	Palmer's grappling hook
+221	Mimulus palmeri	Palomar monkey flower
+222	Chaenactis parishii	Parish's pincushion
+223	Rupertia rigida	Parish's psoralea
+224	Tetracoccus dioicus	Parry's tetracoccus
+225	Salvadora hexalepis virgultea	Coast patch nosed snake
+226	Caulanthus simulans	Payson's caulanthus
+227	Ovis canadensis	Peninsular bighorn sheep
+228	Arctostaphylos peninsularis	Peninsular manzanita
+229	Falco peregrinus anatum	Peregrine falcon
+230	Phainopepla nitens	Phainopepla
+231	Pheidole californica	Pheidole californica
+232	Pheidole cerebrosior	Pheidole cerebrosior
+233	Pheidole hyatti	Pheidole hyatti
+234	Pheidole vistana	Pheidole vistana
+235	Peromyscus truei	Pinyon mouse
+236	Peromyscus truei martirensis	Pinyon mouse
+237	Vireo plumbeus	Plumbeous vireo
+238	Perognathus longimembris	Pocket mouse
+239	Nyctinomops femorosaccus	Pocketed free tailed bat
+240	Pogonomyrmex subnitidus	Pogonomyrmex subnitidus
+241	Melanerpes formicivorus	Acorn woodpecker
+242	Crematogaster californica	Acrobat ant
+243	Crematogaster hespera	Acrobat ant
+244	Crematogaster mormonum	Acrobat ant
+245	Xenopus laevis	African clawed frog
+246	Dipodomys agilis	Agile kangaroo rat
+247	Dipodomys merriami collinus	Aguanga kangaroo rat
+248	Rattus rattus alexandrinus	Alexandria black rat
+249	Selasphorus sasin	Allen's hummingbird
+250	Taxidea taxus	American badger
+252	Taxidea taxus berlandieri	American badger
+253	Castor canadensis	American beaver
+254	Botaurus lentiginosus	American bittern
+255	Ursus americanus	American black bear
+256	Corvus brachyrhynchos	American crow
+257	Cinclus mexicanus	American dipper
+258	Falco sparverius	American kestrel
+259	Setophaga ruticilla	American redstart
+260	Turdus migratorius	American robin
+261	Calypte anna	Anna's hummingbird
+262	Aneides lugubris	Arboreal salamander
+263	Carlowrightia arizonica	Arizona carlowrightia
+264	Neivamyrmex nigrescens	Army ant
+265	Clevelandia ios	Arrow goby
+266	Gila orcutti	Arroyo chub
+267	Bufo californicus	Arroyo toad
+268	Cynara cardunculus	Artichoke thistle
+269	Myiarchus cinerascens	Ash throated flycatcher
+270	Selaginella cinerascens	Ashy spike moss
+271	Corbicula fluminea	Asian clam
+272	Sylvilagus audubonii	Audubon's cottontail
+273	Dendroica coronata auduboni	Audubon's warbler
+274	Chaetodipus baileyi	Bailey's pocket mouse
+275	Chaetodipus baileyi hueyi	Bailey's pocket mouse
+276	Navarretia peninsularis	Baja navarretia
+277	Haliaeetus leucocephalus	Bald eagle
+278	Columba fasciata	Band tailed pigeon
+279	Coleonyx switaki	Switak's banded gecko
+280	Hirundo rustica	Barn swallow
+281	Passerculus sandwichensis beldingi	Belding's savannah sparrow
+282	Ceryle alcyon	Belted kingfisher
+283	Thryomanes bewickii	Bewick's wren
+284	Eptesicus fuscus	Big brown bat
+285	Eptesicus fuscus pallidus	Big brown bat
+286	Nyctinomops macrotis	Big free tailed bat
+287	Archilochus alexandri	Black chinned hummingbird
+288	Spizella atrogularis	Black chinned sparrow
+289	Nycticorax nycticorax	Black crowned night heron
+290	Pheucticus melanocephalus	Black headed grosbeak
+292	Lepus californicus	Black tailed jackrabbit
+293	Dendroica nigrescens	Black throated gray warbler
+294	Amphispiza bilineata	Black throated sparrow
+295	Ameiurus melas	Black bullhead
+296	Pomoxis nigromaculatus	Black crappie
+297	Sayornis nigricans	Black phoebe
+298	Rattus rattus	Black rat
+300	Rynchops niger	Black skimmer
+301	Polioptila caerulea	Blue gray gnatcatcher
+302	Guiraca caerulea	Blue grosbeak
+303	Passerina caerulea	Blue grosbeak
+304	Coluber constrictor	Blue racer
+305	Lepomis macrochirus	Bluegill
+306	Lynx rufus	Bobcat
+307	Lynx rufus baileyi	Bobcat
+308	Galium angustifolium borregoense	Borrego bedstraw
+309	Thomomys bottae	Botta's pocket gopher
+310	Thomomys bottae boregoensis	Botta's pocket gopher
+312	Thomomys bottae nigricans	Botta's pocket gopher
+313	Phalacrocorax penicillatus	Brandt's cormorant
+314	Tadarida brasiliensis	Brazilian free tailed bat
+315	Tadarida brasiliensis blossevillii	Brazilian free tailed bat
+316	Euphagus cyanocephalus	Brewer's blackbird
+317	Spizella breweri	Brewer's sparrow
+318	Scapanus latimanus	Broad footed mole
+319	Scapanus latimanus occultus	Broad handed mole
+320	Molothrus ater	Brown headed cowbird
+321	Peromyscus boylii	Brush mouse
+322	Peromyscus boylii rowleyi	Brush mouse
+323	Sylvilagus bachmani	Brush rabbit
+324	Sylvilagus backmanii cinerascens	Brush rabbit
+325	Caulanthus heterophyllus	California mustard
+326	Bucephala albeola	Bufflehead
+327	Rana catesbeiana	Bullfrog
+328	Icterus bullockii	Bullock's oriole
+329	Athene cunicularia hypugaea	Burrowing owl
+330	Psaltriparus minimus	Bushtit
+331	Peromyscus eremicus	Cactus mouse
+333	Peromyscus eremicus fraterculus	Cactus mouse
+334	Adolphia californica	Spineshrub
+336	Lynx rufus californicus	California bobcat
+337	Tamias obscurus	California chipmunk
+338	Myotis californicus stephensi	California desert myotis
+339	Polioptila californica	California gnatcatcher
+340	Urocyon cinereoargenteus californicus	California gray fox
+341	Spermophilus beecheyi	California ground squirrel
+342	Spermophilus beecheyi nudipes	California ground squirrel
+343	Pogonomyrmex californicus	California harvester ant
+344	Fundulus parvipinnis	California killifish
+345	Lampropeltis getula californiae	California kingsnake
+346	Macrotus californicus	California leaf nosed bat
+347	Sterna antillarum browni	California least tern
+348	Anniella pulchra	California legless lizard
+349	Trimorphodon biscutatus	California lyre snake
+350	Lampropeltis zonata pulchra	San Diego mountain kingsnake
+351	Peromyscus californicus	California mouse
+352	Peromyscus californicus insignis	California mouse
+353	Myotis californicus	California myotis
+355	Taricha torosa	California newt
+356	Chaetodipus californicus	California pocket mouse
+357	Callipepla californica	California quail
+358	Rana aurora draytonii	California red legged frog
+360	Toxostoma redivivum	California thrasher
+361	Bufo boreas halophilus	California toad
+362	Pipilo crissalis	California towhee
+363	Hyla cadaverina	California treefrog
+364	Canis latrans ochropus	California valley coyote
+365	Microtus californicus	California vole
+366	Microtus californicus sanctidiegi	California vole
+367	Masticophis lateralis	California whipsnake
+368	Peromyscus crinitus	Canyon mouse
+369	Peromyscus crinitus stephensi	Canyon mouse
+370	Carex spissa	Carex spissa
+371	Cyprinus carpio	Carp
+372	Camponotus anthrax	Carpenter ant
+373	Camponotus dumetorum	Carpenter ant
+374	Camponotus semitestaceus	Carpenter ant
+375	Camponotus vicinus	Carpenter ant
+376	Camponotus yogi	Carpenter ant
+377	Sterna caspia	Caspian tern
+378	Carpodacus cassinii	Cassin's finch
+379	Vireo cassinii	Cassin's vireo
+380	Bubulcus ibis	Cattle egret
+381	Phacelia nashiana	Charlotte's phacelia
+382	Spizella passerina	Chipping sparrow
+383	Rana chiricahuensis	Chiricahua leopard frog
+384	Fritillaria biflora	Chocolate lily
+385	Nolina cismontana	Chapparal beargrass
+386	Mimulus clevelandii	Cleveland's bush monkey flower
+387	Petrochelidon pyrrhonota	Cliff swallow
+388	Masticophis flagellum	Coachwhip
+389	Phrynosoma coronatum	Coast horned lizard
+390	Cnemidophorus tigris multiscutatus	Coastal whiptail
+391	Neotoma albigula venusta	Colorado Valley woodrat
+392	Tyto alba	Common barn owl
+393	Sauromalus ater	Common chuckwalla
+394	Bucephala clangula	Common goldeneye
+395	Lampropeltis getulus	Common kingsnake
+396	Didelphis marsupialis	Common opossum
+397	Phalaenoptilus nuttallii	Common poorwill
+398	Corvus corax	Common raven
+399	Uta stansburiana	Common side blotched lizard
+400	Chelydra serpentina	Common snapping turtle
+401	Geothlypis trichas	Common yellowthroat
+402	Accipiter cooperii	Cooper's hawk
+403	Piperia cooperi	Rein orchid
+404	Gambelia copeii	Cope's leopard lizard
+405	Calypte costae	Costa's hummingbird
+406	Romneya coulteri trichocaly	Coulter's matilija poppy
+407	Canis latrans	Coyote
+408	Crematogaster coarctata	Crematogaster coarctata
+409	Toxostoma crissale coloradense	Crissal thrasher
+410	Cupressus stephonsonii	Cuyamaca cypress
+411	Delphinium hesperium cuyamacae	Cuyamaca larkspur
+412	Rubus glaucifolius	Cuyamaca raspberry
+413	Junco hyemalis	Dark eyed junco
+414	Astragalus deanei	Dean's milkvetch
+415	Peromyscus maniculatus	Deer mouse
+416	Nolina interrata	Dehesa nolina
+417	Arctostaphylos glandulosa crassifolia	Del Mar manzanita
+418	Clarkia delicata	Delicate clarkia
+419	Astragalus oocarpus	San Diego milkvetch
+420	Linanthus bellus	Desert beauty
+421	Sylvilagus audubonii sanctidiegi	Desert cottontail
+422	Lepus californicus deserticola	Desert jackrabbit
+423	Dipodomys deserti	Desert kangaroo rat
+425	Polyergus breviceps	Polyergus breviceps
+426	Falco mexicanus	Prairie falcon
+427	Lathyrus splendens	Pride of california
+428	Progne subis	Purple martin
+429	Lotus haydonii	Pygmy lotus
+430	Dorymyrmex insanus	Pyramid ant
+431	Euphydryas editha quino	Quino checkerspot butterfly
+432	Procyon lotor	Raccoon
+433	Oncorhynchus mykiss	Rainbow trout
+434	Horkelia truncata	Ramona horkelia
+435	Sitta canadensis	Red breasted nuthatch
+436	Trachemys scripta	Red eared slider
+437	Trachemys scripta elegans	Red eared slider
+438	Colaptes auratus cafer	Red shafted flicker
+439	Buteo lineatus	Red shouldered hawk
+440	Buteo jamaicensis	Red tailed hawk
+441	Agelaius phoeniceus	Red winged blackbird
+442	Lasiurus borealis teliotis	Red Bat
+443	Vulpes fulva	Red fox
+444	Vulpes vulpes	Red fox
+445	Bufo punctatus	Red spotted toad
+446	Procambarus clarkii	Red swamp crayfish
+447	Egretta rufescens	Reddish egret
+448	Micropterus coosae	Redeye bass
+449	Cryptantha costata	Ribbed cryptantha
+450	Diadophis punctatus	Ringneck snake
+451	Bassariscus astutus	Ringtail
+452	Lepidium virginicum robinsonii	Robinson peppergrass
+453	Columba livia	Rock pigeon
+454	Plecotus townsendii pallescens	Townsend's big eared bat
+455	Chen rossii	Ross' goose
+456	Lichanura trivirgata	Rosy boa
+457	Buteo lagopus	Rough legged hawk
+458	Pogonomyrmex rugosus	Rough harvester ant
+459	Spermophilus tereticaudus	Round tailed ground squirrel
+461	Regulus calendula	Ruby crowned kinglet
+462	Aimophila ruficeps	Rufous crowned sparrow
+463	Xanthisma junceum	Rush like bristleweed
+464	Amphispiza belli	Bell's sage sparrow
+465	Oreoscoptes montanus	Sage thrasher
+466	Sceloporus graciosus	Sagebrush lizard
+467	Astragalus crotalariae	Salton Sea milkvetch
+468	Poa atropurpurea	San Bernardino blue grass
+469	Ferocactus viridescens	Coast barrel cactus
+470	Lepus californicus bennettii	San Diego black tailed jackrabbit
+471	Campylorhynchus brunneicapillus sandiegensis	San Diego cactus wren
+472	Achnatherum diegoensis	San Diego County needlegrass
+473	Viguiera laciniata	San Diego County viguiera
+474	Neotoma lepida intermedia	San Diego desert woodrat
+475	Muilla clevelandii	San Diego golden star
+476	Iva hayesiana	San Diego marsh elder
+477	Chaetodipus fallax	San Diego pocket mouse
+478	Artemisia palmeri	San Diego sagewort
+479	Hulsea californica	San Diego sunflower
+480	Acanthomintha ilicifolia	San Diego thorn mint
+481	Monardella nana leptosiphon	San Felipe monardella
+482	Canis latrans clepticus	San Pedro martir coyote
+483	Xantusia gracilis	Sandstone night lizard
+484	Aegolius acadicus	Saw whet owl
+485	Icterus parisorum	Scott's oriole
+486	Asio flammeus	Short eared owl
+487	Lewisia brachycalyx	Short sepaled lewisia
+488	Lasionycteris noctivagans	Silver haired bat
+489	Microseris douglasii platycarpha	Small flowered microseris
+490	Convolvulus simulans	Small flowered morning glory
+491	Centromadia pungens laevis	Smooth tarplant
+492	Chen caerulescens	Snow goose
+493	Egretta thula	Snowy Egret
+494	Melospiza melodia	Song sparrow
+495	Peromyscus maniculatus sonoriensis	Sonoran deer mouse
+496	Uma notata	Sonoran desert fringe toed lizard
+497	Elgaria multicarinata	Southern alligator lizard
+498	Aimophila ruficeps canescens	Southern California rufous crowned sparrow
+499	Onychomys torridus	Southern grasshopper mouse
+500	Onychomys torridus pulcher	Southern grasshopper mouse
+501	Onychomys torridus ramona	Southern grasshopper mouse
+502	Chamaebatia australis	Southern mountain misery
+503	Crotalus viridis helleri	Southern pacific rattlesnake
+504	Thomomys bottae puertae	Southern pocket gopher
+505	Sceloporus graciosus vandenburgianus	Southern sagebrush lizard
+506	Centromadia parryi australis	Southern tarplant
+507	Juncus acutus leopoldii	Southwestern spiny rush
+508	Crotalus mitchellii	Speckled rattlesnake
+509	Chaetodipus spinatus	Spiny pocket mouse
+510	Chaetodipus spinatus rufescens	Spiny pocket mouse
+511	Apalone spinifera	Spiny soft shell turtle
+512	Euderma maculatum	Spotted bat
+513	Strix occidentalis	Spotted owl
+514	Actitis macularia	Spotted sandpiper
+515	Pipilo maculatus	Spotted towhee
+516	Cyanocitta stelleri	Steller's jay
+517	Stenamma californicum	Stenamma californica
+518	Stenamma diecki	Stenamma diecki
+519	Dipodomys stephensi	Stephens kangaroo rat
+520	Geraea viscida	Sticky geraea
+521	Stipa diegoensis	Stipa diegoensis
+522	Mugil cephalus	Striped mullet
+523	Mephitis mephitis	Striped skunk
+524	Comarostaphylis diversifolia	Summer holly
+525	Piranga rubra	Summer tanager
+526	Catharus ustulatus	Swainson's thrush
+527	Vulpes velox	Swift fox
+528	Cupressus forbesii	Tecate cypress
+529	Deinandra floribunda	Tecate tarplant
+530	Solenopsis molesta	Thief ant
+531	Brodiaea filifolia	Thread leaf brodiaea
+532	Dorosoma petenense	Threadfin shad
+533	Eucyclogobius newberryi	Tidewater goby
+534	Atherinops affinis	Topsmelt silverside
+535	Corynorhinus townsendii	Townsend's big eared bat
+536	Dendroica townsendi	Townsend's warbler
+537	Tachycineta bicolor	Tree swallow
+538	Agelaius tricolor	Tricolored blackbird
+539	Cathartes aura meridionalis	Turkey vulture
+540	Thamnophis hammondii	Two stripe garter snake
+541	Gasterosteus aculeatus williamsoni	Unarmored threespine stickleback
+542	Thomomys bottae sanctidiegi	Valley pocket gopher
+543	Eriogonum evanidum	Vanishing wild buckwheat
+544	Ixoreus naevius	Varied thrush
+545	Dudleya variegata	Variegated dudleya
+546	Pyrocephalus rubinus flammeus	Vermilion flycatcher
+547	Tachycineta thalassina	Violet green swallow
+548	Didelphis virginiana	Virginia opossum
+549	Rallus limicola	Virginia rail
+550	Vireo gilvus	Warbling vireo
+551	Gasterosteus aculeatus microcephalus	West coast threespine stickleback
+552	Tantilla planiceps	Western black headed snake
+553	Leptotyphlops humilis	Western blind snake
+554	Sialia mexicana	Western bluebird
+555	Dichondra occidentalis	Western dichondra
+556	Mus musculus domesticus	Western european house mouse
+557	Sceloporus occidentalis	Western fence lizard
+558	Empidonax difficilis	Western flycatcher
+559	Sciurus griseus	Western rray squirrel
+560	Sciurus griseus anthonyi	Western gray squirrel
+561	Larus occidentalis	Western gull
+562	Reithrodontomys megalotis	Western harvest mouse
+563	Reithrodontomys megalotis longicaudus	Western harvest mouse
+564	Tyrannus verticalis	Western kingbird
+565	Eumops perotis	Western mastiff bat
+566	Sturnella neglecta	Western meadowlark
+567	Gambusia affinis	Western mosquitofish
+568	Pipistrellus hesperus	Western pipistrelle bat
+570	Clemmys marmorata pallida	Southwestern pond turtle
+571	Crotalus viridis	Western rattlesnake
+572	Eumeces gilberti	Western red tailed skink
+573	Lasiurus blossevillii	Western red bat
+574	Lasiurus blossevillii teliotis	Western red bat
+575	Otus kennicottii	Western screech owl
+576	Megascops kennicottii	Western screech owl
+577	Aphelocoma californica	Western scrub jay
+578	Chionactis occipitalis	Western shovel nosed snake
+579	Eumeces skiltonianus interparietalis	Coronado skink
+580	Myotis ciliolabrum	Western small footed myotis
+581	Myotis ciliolabrum melanorhinus	Western small footed myotis
+582	Charadrius alexandrinus nivosus	Western snowy plover
+583	Scaphiopus hammondii	Western spadefoot
+584	Spea hammondii	Western spadefoot toad
+585	Piranga ludoviciana	Western tanager
+586	Bufo boreas	Western toad
+587	Aspidoscelis tigris	Western whiptail
+588	Contopus sordidulus	Western wood pewee
+589	Coluber mormon	Western yellow bellied racer
+590	Lasiurus xanthinus	Western yellow bat
+592	Sitta carolinensis	White breasted nuthatch
+593	Plegadis chihi	White faced ibis
+594	Peromyscus leucopus	White footed mouse
+595	Ammospermophilus leucurus	White tailed antelope squirrel
+597	Elanus leucurus majusculus	White tailed kite
+598	Zonotrichia albicollis	White throated sparrow
+599	Neotoma albigula	White throated woodrat
+600	Melanitta fusca	White winged scoter
+601	Ceanothus verrucosus	Wart stemmed lilac
+602	Meleagris gallopavo	Wild turkey
+603	Empidonax traillii extimus	Willow flycatcher
+604	Monardella linoides viminea	Willowy monardella
+605	Wilsonia pusilla	Wilson's warbler
+606	Prenolepis imparis	Winter ant
+607	Troglodytes troglodytes	Winter wren
+608	Cylindropuntia wolfii	Wolf's cholla
+609	Formica francoueri	Wood ant
+610	Formica moki	Wood ant
+611	Formica xerophila	Wood ant
+612	Chamaea fasciata	Wrentit
+614	Icteria virens	Yellow breasted chat
+615	Dendroica coronata	Yellow rumped warbler
+616	Dendroica petechia	Yellow warbler
+617	Myotis yumanensis	Yuma myotis
+618	Myotis yumanensis saturatus	Yuma myotis
+619	Myotis yumanensis sociabilis	Yuma myotis
+620	Buteo albonotatus	Zone tailed hawk
+621	Arctostaphylos otayensis	Otay manzanita
+622	Ariolimax columbianus stramineus	Palomar banana slug
+623	Astragalus insularis harwoodii	Harwood's milkvetch
+624	Astragalus lentiginosus borreganus	Borrego milkvetch
+625	Batrachoseps aridus	Desert slender salamander
+626	Berberis higginsiae	Fremont barberry
+627	Boechera hirshbergiae	Hirshberg's rockcress
+628	Buteo swainsoni	Swainson's hawk
+629	Carex obispoensis	San Luis Obispo sedge
+630	Coccyzus americanus	Yellow billed cuckoo
+631	Cylindropuntia x fosbergii	Mason Valley cholla
+632	Dieteria asteroides lagunensis	Laguna mountain aster
+633	Dipodomys merriami trinidadensis	Merriam's kangaroo rat
+634	Downingia concolor brevior	Cuyamaca Lake downingia
+635	Ericameria cuneata macrocephala	Laguna Mountain goldenbush
+636	Ericameria palmeri	Palmer's goldenbush
+637	Euphyes vestris harbisoni	Dun skipper
+638	Galium californicum flaccidum	California flaccidus
+639	Grindelia hallii	Hall's gumplant
+640	Herissantia crispa	Curly abutilon
+641	Hulsea mexicana	Mexican hulsea
+642	Hulsea vestila callicarpha	Beautiful hulsea
+643	Lanius ludovicianus	Loggerhead shrike
+644	Lepidium flavum felipense	Borrego Valley peppergrass
+645	Lessingia glandulifera tomentosa	Ranchita lessingia
+646	Limnanthes gracilis parishii	Parish's meadowfoam
+647	Lupinus excubitus medius	Mountain Springs bush lupine
+648	Lycaena hermes	Hermes copper
+649	Lycium parishii	Parish's desert thorn
+650	Mimulus aurantiacus aridus	Jacumba monkey flower
+651	Myiarchus tyrannulus	Brown crested flycatcher
+652	Pentagramma triangularis nov	Pentagramma triangularis nov
+653	Pholistoma auritum arizonicum	Arizona fiesta flower
+654	Psuedocopaeodes eunus	Alkali skipper
+655	Pyrgus ruralis lagunae	Laguna mountain skipper
+656	Spermophilus tereticaudus chlorus	Palm Springs round tailed ground squirrel
+657	Thermopsis macrophylla semota	Velvety false lupine
+658	Toxostoma lecontei lecontei	Leconte's thrasher
+659	Xanthocephalus xanthocephalus	Yellow headed blackbird
+660	Branchinecta sandiegonensis	San Diego fairy shrimp
+661	Callophrys gryneus thornei	Thorne's hairstreak
+662	Panoquina errans	Wandering salt marsh skipper
+663	Streptocephalus wootoni	Riverside fairy shrimp
+664	Agave shawii	Coastal agave
+665	Ambrosia pumila	San Diego ambrosia
+666	Aphanisma blitoides	Aphanisma
+667	Arctostaphylos rainbowensis	Rainbow manzanita
+668	Astragalus tener titi	Coastal dunes milkvetch
+669	Atriplex coulteri	Coulter's saltbrush
+670	Atriplex parishii	Parish brittlescale
+671	Berberis nevinii	Nevin's barberry
+672	Bloomeria clevelandii	San Diego goldenstar
+673	Branta canadensis	Canada goose
+674	Calamagrostis koelerioides	Fire redgrass
+675	Charadrius montanus	Mountain plover
+676	Chorizanthe orcuttiana	Orcutt's spineflower
+677	Cordylanthus maritimus	Salt marsh bird's beak
+678	Cordylanthus orcuttianus	Orcutt's bird's beak
+679	Corethrogyne filaginifolia linifolia	Del Mar mesa sandaster
+680	Cylindropuntia californica	Snake cholla
+681	Deinandra conjugens	Otay tarplant
+682	Dudleya blochmaniae brevifolia	Short leaf dudleya
+683	Dudleya viscida	Sticky dudleya
+684	Eryngium aristulatum parishii	San Diego button celery
+685	Lepechinia cardiophylla	Heart leaf pitcher sage
+686	Lepechinia ganderi	Gander's pitcher sage
+687	Lotus nuttallianus	Prostrate lotus
+688	Monardella stoneana	Jennifer's monardella
+689	Myosurus minimus	Little mousetail
+690	Navarretia fossalis	Spreading navarretia
+691	Numenius americanus	Long billed curlew
+692	Orcuttia californica	California orcutt grass
+693	Passerculus sandwichensis rostratus	Large billed savannah sparrow
+694	Pelecanus occidentalis californicus	California brown pelican
+695	Pinus torreyana	Torrey pine
+696	Pogogyne abramsii	San Diego mesa mint
+697	Pogogyne nudiuscula	Otay mesa mint
+698	Quercus dumosa	Nuttall's scrub oak
+699	Rosa minutifolia	Desert rose
+700	Satureja chandleri	San Miguel savory
+701	Solanum xanti	Purple nightshade
+702	Sterna elegans	Elegant tern
+703	Abronia maritima	Red sand verbena
+704	Abronia villosa aurita	Foothill sand verbena
+705	Accipiter striatus	Sharp shinned hawk
+706	Aechmophorus occidentalis	Western grebe
+707	Ambrosia chenopodiifolia	San Diego bur sage
+708	Anas strepera	Gadwall
+709	Androsace elongata acuta	California rosace
+710	Apodemia mormo peninsularis	Peninsular metalmark
+711	Asplenium vespertinum	Western spleenwort
+712	Astragalus leucolobus	Bear Valley milkvetch
+713	Astragalus magdalenae peirsonii	Pierson's milkvetch
+714	Astragalus pachypus jaegeri	Jaeger's astragalus
+715	Atriplex pacifica	South coast saltbush
+716	Atriplex serenana davidsonii	Davidson's saltscale
+717	Ayenia compacta	Ayenia
+718	Aythya americana	Redhead
+719	Azolla mexicana	Mexican mosquito fern
+720	Bergerocactus emoryi	Golden snake cactus
+721	Boykinia rotundifolia	Round leaved boykinia
+722	Brennania belkini	Belkin's dune fly
+723	Bucephala islandica	Barrow's goldeneye
+724	Butorides striatus	Green heron
+725	Calandrinia breweri	Brewer's calandrinia
+726	Calandrinia maritima	Seaside calandrinia
+727	Calochortus catalinae	Catalina mariposa lily
+728	Camissonia lewisii	Lewis sun cup
+729	Castilleja lasiorhynchus	San Bernardino mountains owl's clover
+731	Ccoelus globosus	Globose dune beetle
+732	Cerorhinca monocerata	Rhinoceros auklet
+733	Chaenactis carphoclina peirsonii	Peirson's pincushion flower
+734	Chaenactis glabriuscula orcuttiana	Orcutt's pincushion
+735	Chamaesyce arizonica	Arizona spurge
+736	Chamaesyce platysperma	Flat seeded spurge
+737	Chamaesyce revoluta	Thread stemmed spurge
+738	Chlidonias niger	Black tern
+739	Chorizanthe leptotheca	Peninsular spine flower
+740	Chorizanthe parryi fernandina	San Fernando spine flower
+741	Chorizanthe procumbens	Prostrate spineflower
+742	Cicindela gabbi	Gabb's tiger beetle
+743	Cicindela latesignata	Sand dune tiger beetle
+744	Cicindela senilis frosti	Tiger beetle
+745	Cicindela trifasciata sigmoides	Mudflat tiger beetle
+746	Cincindela hirticollis gravida	Sandy beach tiger beetle
+747	Cincindela latesignata obliviosa	Oblivious tiger beetle
+748	Coleonyx variegatus abbottii	San Diego banded gecko
+749	Colubrina californica	Las Animas colubrina
+750	Coreopsis maritima	Sea dahlia
+751	Corethrogyne filaginifolia incana	San Diego sand aster
+752	Cryptantha holoptera	Winged cryptantha
+753	Cynanchum utahense	Utah vine milkweed
+754	Cyprinodon macularis	Desert pupfish
+755	Cypseloides niger	Black swift
+756	Danaus plexippus	Monarch butterfly
+757	Deinandra paniculata	Paniculate tarplant
+758	Delphinium parishii subglobosum	Desert larkspur
+759	Dendrocygne bicolor	Fulvous whistling duck
+760	Ditaxis serrata californica	California ditaxis
+761	Dudleya alainiae	Reiser's dudleya
+762	Dudleya attenuata orcuttii	Orcutt's dudleya
+763	Dudleya blochmaniae blochmaniae	Blochman's dudleya
+764	Dudleya multicaulis	Many stemmed dudleya
+765	Endomychura hypoleuca	Xantus murrelet
+766	Eriogonum foliosum	Leafy buckwheat
+767	Erodium macrophyllum	Large leaf fillary
+768	Eryngium pendletonensis	Pendleton button celery
+769	Eucnide rupestris	Rock nettle
+770	Euphorbia misera	Cliff spurge
+771	Falco columbarius	Merlin
+772	Frankenia palmeri	Yerba reuma
+773	Fratercula cirrhata	Tufted puffin
+774	Fremontodendron mexicanum	Mexican flannelbush
+775	Galium angustifolium jacinticum	San Jacinto Mountains bedstraw
+776	Galium californicum	California bedstraw
+777	Galium johnstonii	Johnston's bedstraw
+778	Gavia immer	Common loon
+779	Gilia caruifolia	Caraway leaved gilia
+780	Githopsis diffusa filicaulis	Mission canyon bluecup
+781	Grus canadensis	Sandhill crane
+782	Hazardia orcuttii	Orcutt's hazardia
+783	Helminthoglypta traski coelata	Peninsular Range shoulderband snail
+784	Heterotheca sessilifolia sanjacintensis	San Jacinto golden aster
+785	Heuchera rubescens versicolor	San Diego County alum root
+786	Hordeum intercedens	Vernal barley
+787	Horkelia cuneata puberula	Mesa horkelia
+788	Horsfordia newberryi	Newberry's velvet mallow
+789	Hymenothrix wrightii	Wright's hymenothrix
+790	Ipomopsis tenuifolia	Slender leaved ipomopsis
+791	Isocoma menziesii decumbens	Decumbent goldenbush
+792	Juglans californica	California black walnut
+793	Junco hyemalis caniceps	Gray headed junco
+794	Juncus cooperi	Cooper's rush
+795	Larus atricilla	Laughing gull
+796	Larus californicus	California gull
+797	Lasthenia glabrata coulteri	Coulter's goldfields
+798	Laterallus jamaicensis coturniculus	California black rail
+799	Linanthus floribundus hallii	Santa Rosa Mountain linanthus
+800	Linderiella occidentalis	California lindellaria
+801	Lotus crassifolius otayensis	Otay mountain lotus
+803	Lycium californicum	California box thorn
+804	Lyrocarpa coulteri palmeri	Palmer's lyrepod
+805	Malperia tenuis	Brown turbins
+806	Matelea parvifolia	Climbing spearleaf
+807	Megathymus yuccae harbisoni	Coastal giant skipper
+808	Melanerpes lewis	Lewis' woodpecker
+809	Mentzelia hirsutissima	Hairy stickleaf
+810	Mimulus aridus	Desert monkey flower
+812	Mimulus latidens	Vernal pool monkey flower
+813	Mirabilis tenuiloba	Slender lobed four o'clock
+815	Monardella macrantha hallii	Hall's monardella
+816	Mucronea californica	California spine flower
+817	Mycteria americana	Wood stork
+818	Nama stenocarpum	Mud nama
+819	Navarretia prostrata	Prostrate navarretia
+820	Nemacaulis denudata gracilis	Slender woolly heads
+821	Nemacaulis denudata denudata	Coast woolly heads
+822	Oceanodroma furcata plumbea	Fork tailed storm petrel
+823	Oceanodroma homochroa	Ashy storm petrel
+824	Oceanodroma melania	Black storm petrel
+825	Ophioglossum californicum	California adder's tongue fern
+826	Opuntia wigginsii	Wiggins cholla
+827	Ornithostaphylos oppositifolia	Palo blanco
+828	Orobanche parishii brachyloba	Short lobed broom rape
+829	Papilio multiculdata	Two tailed swallowtail
+830	Pectocarya peninsularis	Baja California comb bur
+831	Pelecanus erythrorhynchos	American white pelican
+832	Penstemon clevelandii connatus	San Jacinto beardtongue
+833	Penstemon thurberi	Thurber's beardtongue
+834	Perideridia gairdneri	Gairdner's yampah
+835	Phacelia stellaris	Brand's phacelia
+836	Phobetus robinsoni	Robinson's beetle
+837	Pilostyles thurberi	Thurber's pilostyles
+838	Plebejus saepiolis hilda	Hilda blue
+839	Proboscidea althaeifolia	Desert unicorn plant
+840	Quercus cedrosensis	Cedros Island oak
+841	Rhus trilobata simplicifolia	Single leaf basket bush
+842	Ribes viburnifolium	Santa Catalina Island currant
+843	Riparia riparia	Bank swallow
+844	Rorippa gambellii	Gambel's watercress
+845	Salvia eremostachya	Desert sage
+846	Scutellaria bolanderi austromontana	Southern skullcap
+847	Selaginella asprella	Bluish spike moss
+848	Selaginella eremophila	Desert spike moss
+849	Senecio aphanactis	Rayless ragwort
+851	Senna covesii	Cove's cassia
+852	Spermolepis echinata	Spermolepis
+853	Stemodia durantifolia	Blue streamwort
+854	Streptanthus bernardinus	Laguna Mountains jewelflower
+855	Streptanthus campestris	Southern jewelflower
+856	Stylocline citroleum	Oil neststraw
+857	Suaeda esteroa	Estuary seablite
+858	Suaeda taxifolia	Woolly seablite
+859	Texosporium sancti-jacobi	Woven spored lichen
+860	Toxostoma bendirei	Bendire's thrasher
+861	Trigonoscuta blaisdelli	Blaisdell trigonoscuta weevil
+862	Tryonia imitator	Mimic tryonia snail
+863	Viguiera purissinae	La purissima viguiera
+864	Viola aurea	Golden violet
+865	Chamaesyce abramsiana	Abrams spurge
+866	Bogertophis rosaliae	Baja California ratsnake
+867	Galium proliferum	Desert bedstraw
+868	Cylindropuntia ganderi	Gander's cholla
+869	Machaeranthera juncea	Rush like bristle bush
+870	Perideridia parishii latifolia	Southern yumpah
+871	Ricinus communis	Castorbean
+872	Plantago virginica	Dwarf plantain
+873	Erynnis funeralis	Funereal duskywing
+874	Callophrys dumetorum	Bramble Hairsteak
+875	Plebejus lupini monticola	Lupine blue
+876	Junonia coenia	Buckeye
+877	Cynthia cardui	Painted lady
+878	Cynthia annabella	West coast lady
+879	Limenitis lorquini	Lorquin's admiral
+880	Papilio zelicaon	Anise swallowtail
+881	Papilio eurymedon	Pale swallowtail
+882	Pieris protodice	Checkered white
+883	Anthocharis sara	Sara orangetip
+884	Colias eurytheme	Orange sulfer
+885	Apodemia mormo virgulti	Behr's Metalmark
+886	Acacia baileyana	Cootamundra wattle
+887	Achnatherum coronatum	Giant Stipa
+888	Acourtia microcephala	Sacapellote
+889	Adenostoma fasciculatum	Chamise
+890	Agrostis exarata	Spike redtop
+891	Allium praecox	Early onion
+892	Allophyllum glutinosum	Blue false gilia
+893	Ambrosia psilostachya	Western ragweed
+894	Amsinckia menziesii	Rigid fiddleneck
+895	Anagallis arvensis	Scarlet pimpernel
+896	Anthemis cotula	Stinkweed
+897	Anthriscus caucalis	Bur chervil
+898	Antirrhinum kelloggii	Climbing snapdragon
+899	Antirrhinum nuttallianum	Nuttall's snapdragon
+900	Artemisia californica	Coastal sagebrush
+901	Aspidotis californica	California lace fern
+902	Avena barbata	Slender wild oat
+903	Baccharis pilularis consanguinea	Coyote brush
+904	Baccharis salicifolia	Mule fat
+905	Bloomeria crocea	Common goldenstar
+906	Brachypodium distachyon	Purple falsebrome
+907	Brickellia californica	California brickellbush
+908	Bromus diandrus	Ripgut grass
+909	Bromus hordeaceus	Soft chess
+910	Bromus madritensis	Compact brome
+911	Bromus rubens	Foxtail chess
+912	Calandrinia ciliata	Red maids
+913	Calochortus splendens	Splendid mariposa lily
+914	Calochortus weedii	Weed's mariposa lily
+915	Calystegia macrostegia tenuifolia	San Diego morning glory
+916	Camissonia hirtella	Field sun cup
+917	Cardamine californica	Milkmaids
+918	Carex triquetra	Triangular fruit sedge
+919	Castilleja exserta	Purple owl's clover
+920	Ceanothus leucodermis	Chaparral whitethorn
+921	Ceanothus tomentosus	Ramona lilac
+922	Centaurea melitensis	Tocalote
+923	Centaurium venustum	Canchalagua
+924	Cerastium glomeratum	Mouse ear chickweed
+925	Cercocarpus minutiflorus	San Diego mountain mahogany
+926	Chaenactis artemisiifolia	White pincushion
+927	Chasmanthe floribunda	African cornflag
+928	Cheilanthes newberryi	California cotton fern
+929	Chenopodium berlandieri	Berlandier's pit seed goosefoot
+930	Chlorogalum parviflorum	Small flower soap plant
+931	Cirsium occidentale	Cobwebby thistle
+932	Clarkia purpurea quadrivulnera	Four spot clarkia
+933	Claytonia parviflora	Utah miner's lettuce
+934	Carpodacus purpureus	Purple finch
+935	Catherpes mexicanus	Canyon wren
+936	Chaetura vauxi	Vaux's swift
+937	Fulica americana	American coot
+938	Icterus cucullatus	Hooded oriole
+939	Larus delawarensis	Ring billed gull
+940	Mergus merganser	Common merganser
+941	Mimus polyglottos	Northern mockingbird
+942	Podilymbus podiceps	Pied billed grebe
+944	Sayornis saya	Say's phoebe
+945	Stellula calliope	Calliope hummingbird
+946	Zonotrichia atricapilla	Golden crowned sparrow
+947	Zonotrichia leucophrys	White crowned sparrow
+</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo></cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+		<stdorder><digform><digtinfo><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090619</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of San Diego Department of Planning and Land Use</cntorg>
+					<cntper>Melanie Casey</cntper>
+				</cntorgp>
+				<cntpos>Senior GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>5201 Ruffin Road</address>
+					<address>Suite B</address>
+					<city>San Diego</city>
+					<state>CA</state>
+					<postal>92123-1666</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>(858) 694-3851</cntvoice>
+				<cntfax>(858) 694-3373</cntfax>
+				<cntemail>melanie.casey@sdcoutny.ca.gov</cntemail>
+				<hours>8-5 M-F</hours>
+				<cntinst>Email Please</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20090406</CreaDate><CreaTime>13111700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20090619</SyncDate><SyncTime>09092600</SyncTime><ModDate>20090619</ModDate><ModTime>09093600</ModTime><MetaID>{7DB9150A-4D2B-49BB-B8D6-2CD9B9B5E642}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.1850</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">obs_poly</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">6120608.672702</westBL><eastBL Sync="TRUE">6507027.999927</eastBL><northBL Sync="TRUE">2259241.08091</northBL><southBL Sync="TRUE">1793522.874881</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-117.702817</westBL><eastBL Sync="TRUE">-116.427378</eastBL><northBL Sync="TRUE">33.867248</northBL><southBL Sync="TRUE">32.57913</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\lueg-gis\data\dplu-projects\SanBIOS\template\obs_poly.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="obs_poly"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20090619</mdDateSt></metadata>

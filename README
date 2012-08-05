@@ -6,7 +6,9 @@ Sometimes you need sample raster and vector data for your python applications.
 
 Sometimes you need bad data for your corner test cases. (No projections, NaN values).
 
-This library provides both.
+Sometimes you just need test metadata.
+
+This library provides all of the above.
 
 Installation
 ============
@@ -29,6 +31,8 @@ Get the absolute path to the the sample data from python::
     >>> from gisdata import GOOD_DATA
     >>> print GOOD_DATA
     '/usr/lib/python2.6/site-packages/gisdata/data/good'
+    >>> print GOOD_METADATA
+    '/usr/lib/python2.6/site-packages/gisdata/metadata/good'
 
 Known Issues
 ============

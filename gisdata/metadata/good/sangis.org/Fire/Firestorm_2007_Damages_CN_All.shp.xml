@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>County of San Diego Department of Planning and Land Use GIS</origin>
+				<pubdate>10/31/2007</pubdate>
+				<title Sync="TRUE">Firestorm_2007_Damages_CN_All</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<onlink>\\lueg-gis\data\dplu-projects\Fire_Services\Incidents\2007_santa_ana_fires\working\metadata\071030_damage_points_prj.shp</onlink>
+				<ftname Sync="TRUE">Firestorm_2007_Damages_CN_All</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+San Diego County experienced a significant fire event in October of 2007. Post-fire damage assessment was conducted once the area was safe to enter. These GIS data do not supersede the official damage assessment reports. These data represent the locations which were impacted by this fire event. 
+
+These point data were intended to spatially join the damage assessment report to the parcel. These data are not intended to pinpoint the exact location of the damage, rather just to assign damage assessment report to the correct parcel.
+</abstract>
+			<purpose>This dataset was developed to locate properties which were damaged during the October 2007 fires in San Diego County.</purpose>
+			<supplinf>
+Online Link to Confirmed Damaged or Destroyed Structures:
+http://www.sdcounty.ca.gov/dplu/docs/cosd_confirmed_damage_assessments.pdf
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate><caldate>11/16/07</caldate><time>12PM</time></sngdate></timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Continually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-117.305755</westbc>
+				<eastbc Sync="TRUE">-116.582979</eastbc>
+				<northbc Sync="TRUE">33.440568</northbc>
+				<southbc Sync="TRUE">32.580029</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">6239590.838736</leftbc><rightbc Sync="TRUE">6459093.500000</rightbc><bottombc Sync="TRUE">1792436.380000</bottombc><topbc Sync="TRUE">2104095.815743</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>REQUIRED: Reference to a formally registered thesaurus or a similar authoritative source of theme keywords.</themekt>
+				<themekey>Damage</themekey>
+				<themekey>Assessment</themekey>
+				<themekey>Report</themekey>
+				<themekey>Houses</themekey>
+				<themekey>Residence</themekey>
+				<themekey>2007</themekey>
+				<themekey>Firestorm</themekey>
+				<themekey>Wildfires</themekey>
+				<themekey>CalFire</themekey>
+				<themekey>Santa Ana</themekey>
+				<themekey>Unincorporated</themekey>
+				<themekey>San Diego County</themekey>
+				<themekey>Potrero</themekey>
+				<themekey>Valley Center</themekey>
+				<themekey>Palomar</themekey>
+				<themekey>Escondido</themekey><themekey>Poway</themekey><themekey>San Marcos</themekey><themekey>San Diego</themekey></theme>
+			<place>
+				<placekey>Unincorporated San Diego County</placekey>
+				<placekey>SD</placekey>
+				<placekey>County</placekey>
+				<placekey>San Diego</placekey>
+				<placekey>Escondido</placekey><placekey>Poway</placekey><placekey>San Marcos</placekey></place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>
+County of San Diego GIS Data Disclaimer and User Agreement -
+Version 2
+10/28/2007
+
+The data displayed and downloadable from this web site or web services related to the County of San Diego, its affiliates, or contractors (here after collectively referred to as the County of San Diego) has been collected from various sources and will change over time without notice (all digital spatial information is collectively referred to as "the data" or "these data" here after). In using the data, users should be aware that some of these data are generalized and not parcel based nor is it of a licensed survey based level of accuracy. These data were created for use in regional projects and are generalized and can be inaccurate. While County of San Diego believes the data is accurate and properly functioning, The County of San Diego disclaims any responsibility for the accuracy or correctness of the data. This data is provided on an "AS IS", "AS AVAILABLE" and "WITH ALL FAULTS" basis. The County of San Diego makes no warranties, express or implied, including but not limited to any warranties of merchantability or fitness for a particular purpose, nor shall the distribution of this information constitute any warranty. 
+
+In no event shall the County of San Diego become liable to users of these data, or any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. In using these data, you further agree to indemnify, defend, and hold harmless The County of San Diego for any and all liability of any nature arising out of or resulting from the lack of accuracy or correctness of the data, or the use of the data.
+
+To ensure that appropriate documentation and data limitations are provided, re-distribution of this data is strongly discouraged. Please acknowledge County of San Diego as a source when County of San Diego data are used in the preparation of reports, papers, publications, maps, or reproduced in graphic or other digital representations. This disclaimer must be accessible or available to be viewed on-line when these data or its derived products are available to be viewed in a digital format by the public or available on any unprotected non fire-walled open internet serving these data, any computer network, file server, and/or ftp site that the public could access with reasonable ease.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of San Diego, Department of Planning and Land Use GIS</cntorg>
+					<cntper>Jason Batchelor</cntper>
+				</cntorgp>
+				<cntpos>Senior GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>5201 Ruffin Rd, Suite B</address>
+					<city>San Diego</city>
+					<state>California</state>
+					<postal>92123</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>858-694-2143</cntvoice>
+				<cntfax>858-694-3373</cntfax>
+				<cntemail>dplu_gis@sdcounty.ca.gov</cntemail>
+				<cntemail>jason.batchelor@sdcounty.ca.gov</cntemail>
+				<hours>7:30 AM - 4:00 PM</hours>
+			</cntinfo>
+		</ptcontac>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+			<sechandl>N/A</sechandl>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 9.2.2.1350</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<lineage>
+			<srcinfo>
+				<srcscale>500</srcscale>
+			</srcinfo>
+			<procstep>
+				<procdate>Not complete</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>County of San Diego, Department of Planning and Land Use, GIS</cntorg>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>5201 Ruffin Rd, Suite B</address>
+							<city>San Diego</city>
+							<state>CA</state>
+							<postal>92123</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>858-694-2143</cntvoice>
+						<cntfax>858-694-3373</cntfax>
+						<cntemail>dplu_gis@sdcounty.ca.gov</cntemail>
+						<hours>7AM - 4PM, Monday - Friday</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<srcused>C:\DOCUME~1\PLUJ1M~1.LUE\LOCALS~1\Temp\xml26C.tmp</srcused>
+			</procstep>
+			<procstep><srcused Sync="TRUE">C:\DOCUME~1\PLUJ1M~1.LUE\LOCALS~1\Temp\xml27C.tmp</srcused><date Sync="TRUE">20071031</date><time Sync="TRUE">15113200</time></procstep><procstep><srcused Sync="TRUE">C:\Documents and Settings\pluj1b.LUEG-GIS\Desktop\metadata.xml</srcused><date Sync="TRUE">20071102</date><time Sync="TRUE">15474300</time></procstep><procstep><srcused Sync="TRUE">K:\1scratch\071102_damage_points_release_sde.shp.xml</srcused><date Sync="TRUE">20071115</date><time Sync="TRUE">14522400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20071214</date><time Sync="TRUE">10512400</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=sangis; Service=5150; User=peg; Version=SDE.DEFAULT</srcused><date Sync="TRUE">20080307</date><time Sync="TRUE">14183700</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE"></srcused><date Sync="TRUE">20080314</date><time Sync="TRUE">10380300</time></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Firestorm_2007_Damages_CN_All">
+				<sdtstype Sync="TRUE">Entity point</sdtstype>
+				<ptvctcnt Sync="TRUE">1649</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Firestorm_2007_Damages_CN_All"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Point</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">1649</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">32.783333</stdparll><stdparll Sync="TRUE">33.883333</stdparll><longcm Sync="TRUE">-116.250000</longcm><latprjo Sync="TRUE">32.166667</latprjo><feast Sync="TRUE">6561666.666667</feast><fnorth Sync="TRUE">1640416.666667</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">1.000000</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="Firestorm_2007_Damages_CN_All">
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr><attrlabl Sync="TRUE">REPORT_NUM</attrlabl><attalias Sync="TRUE">REPORT_NUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth><attrdef>Damage Assessment Report number</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ST_NUM</attrlabl><attalias Sync="TRUE">ST_NUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth><attrdef>Street number</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ST_NAME</attrlabl><attalias Sync="TRUE">ST_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Street name</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">UNIT</attrlabl><attalias Sync="TRUE">UNIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">28</attwidth><attrdef>Unit number</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">APN_1</attrlabl><attalias Sync="TRUE">APN_1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Assessor parcel number entered from Damage Assessment form</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">VEH_DES</attrlabl><attalias Sync="TRUE">VEH_DES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef>Number of vehicles destoyed</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><enttyp>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">1649</enttypc><enttypl Sync="TRUE">Firestorm_2007_Damages_CN_All</enttypl></enttyp>
+			<attr><attrlabl Sync="TRUE">VEH_MIN</attrlabl><attalias Sync="TRUE">VEH_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Number of vehicles with minimal damage</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">PRI_DES</attrlabl><attalias Sync="TRUE">PRI_DES</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Number of primary structures destoyed</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">PRI_MOD</attrlabl><attalias Sync="TRUE">PRI_MOD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Number of primary structures moderately damaged</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">PRI_MIN</attrlabl><attalias Sync="TRUE">PRI_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Number of primary structures minimally damaged</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SEC_SQFT</attrlabl><attalias Sync="TRUE">SEC_SQFT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Total square footage of secondary structures</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SEC_DES</attrlabl><attalias Sync="TRUE">SEC_DES</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs><attrdef>Number of secondary structures destroyed</attrdef></attr><attr><attrlabl Sync="TRUE">SEC_MOD</attrlabl><attalias Sync="TRUE">SEC_MOD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs><attrdef>Number of secondary structures moderately damaged</attrdef></attr><attr><attrlabl Sync="TRUE">SEC_MIN</attrlabl><attalias Sync="TRUE">SEC_MIN</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs><attrdef>Number of secondary structures minimally damaged</attrdef></attr><attr><attrlabl Sync="TRUE">COMMENTS</attrlabl><attalias Sync="TRUE">COMMENTS</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Comments from field form</attrdef><attrdefs>County of San Diego Department of Planning and Land Use GIS</attrdefs></attr><attr><attrlabl Sync="TRUE">APN_8</attrlabl><attalias Sync="TRUE">APN_8</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">48</attwidth><attrdef>Assessor parcel number 8 digit</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">PARCELID</attrlabl><attalias Sync="TRUE">PARCELID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>SanGIS internal parcel ID number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWN_NAME1</attrlabl><attalias Sync="TRUE">OWN_NAME1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>First owner name</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWN_NAME2</attrlabl><attalias Sync="TRUE">OWN_NAME2</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Second owner name</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWN_NAME3</attrlabl><attalias Sync="TRUE">OWN_NAME3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">96</attwidth><attrdef>Third owner name</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">FRACTINT</attrlabl><attalias Sync="TRUE">FRACTINT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Fractional interest</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWN_ADDR1</attrlabl><attalias Sync="TRUE">OWN_ADDR1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Owner address line 1</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWN_ADDR2</attrlabl><attalias Sync="TRUE">OWN_ADDR2</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Owner address line 2</attrdef><attrdefs>SanGIS</attrdefs><atnumdec Sync="TRUE">5</atnumdec></attr><attr><attrlabl Sync="TRUE">OWN_ADDR3</attrlabl><attalias Sync="TRUE">OWN_ADDR3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">75</attwidth><attrdefs>SanGIS</attrdefs><attrdef>Owner address line 3</attrdef></attr><attr><attrlabl Sync="TRUE">OWN_ADDR4</attrlabl><attalias Sync="TRUE">OWN_ADDR4</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Owner address line 4</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWN_ZIP</attrlabl><attalias Sync="TRUE">OWN_ZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Owner zip code</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_JURI</attrlabl><attalias Sync="TRUE">SITUS_JURI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><attrdef>Site jurisdiction code</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_STRE</attrlabl><attalias Sync="TRUE">SITUS_STRE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">9</attwidth><attrdef>Site street name</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_SUFF</attrlabl><attalias Sync="TRUE">SITUS_SUFF</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Site street suffix</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_POST</attrlabl><attalias Sync="TRUE">SITUS_POST</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">30</attwidth><attrdef>Stie street post direction</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_PRE_</attrlabl><attalias Sync="TRUE">SITUS_PRE_</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Site address predirection</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_ADDR</attrlabl><attalias Sync="TRUE">SITUS_ADDR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Site address number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_FRAC</attrlabl><attalias Sync="TRUE">SITUS_FRAC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Site address fraction</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_BUIL</attrlabl><attalias Sync="TRUE">SITUS_BUIL</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Site building number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_SUIT</attrlabl><attalias Sync="TRUE">SITUS_SUIT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>Site suite number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SITUS_COMM</attrlabl><attalias Sync="TRUE">SITUS_COMM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth><attrdef>Site community</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">LEGLDESC</attrlabl><attalias Sync="TRUE">LEGLDESC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><attrdef>Legal description of parcel</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ASR_LAND</attrlabl><attalias Sync="TRUE">ASR_LAND</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Assessed land value</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ASR_IMPR</attrlabl><attalias Sync="TRUE">ASR_IMPR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">65</attwidth><attrdef>Assessed improvement value</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ASR_TOTAL</attrlabl><attalias Sync="TRUE">ASR_TOTAL</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Assessed total value</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">DOCTYPE</attrlabl><attalias Sync="TRUE">DOCTYPE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Document type</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">DOCNMBR</attrlabl><attalias Sync="TRUE">DOCNMBR</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>Document number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">DOCDATE</attrlabl><attalias Sync="TRUE">DOCDATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Document date</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ACREAGE</attrlabl><attalias Sync="TRUE">ACREAGE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><attrdef>Parcel acreage over 1/4 acre</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">TAXSTAT</attrlabl><attalias Sync="TRUE">TAXSTAT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>Tax status code</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">OWNEROCC</attrlabl><attalias Sync="TRUE">OWNEROCC</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Owner occupied indicator</attrdef><attrdefs>SanGIS</attrdefs><atnumdec Sync="TRUE">5</atnumdec></attr><attr><attrlabl Sync="TRUE">TRANUM</attrlabl><attalias Sync="TRUE">TRANUM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Tax rate area number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ASR_ZONE</attrlabl><attalias Sync="TRUE">ASR_ZONE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Assessor zone code</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ASR_LANDUS</attrlabl><attalias Sync="TRUE">ASR_LANDUS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Assessor land use code</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">UNITQTY</attrlabl><attalias Sync="TRUE">UNITQTY</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Number of dwelling units</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SUBMAP</attrlabl><attalias Sync="TRUE">SUBMAP</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Subdivision map or parcel map number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SUBNAME</attrlabl><attalias Sync="TRUE">SUBNAME</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Subdivision name or parcel map number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ADDRNO</attrlabl><attalias Sync="TRUE">ADDRNO</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef>SanGIS address number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ADDRFRAC</attrlabl><attalias Sync="TRUE">ADDRFRAC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">64</attwidth><attrdef>SanGIS address number fraction</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ADDRUNIT</attrlabl><attalias Sync="TRUE">ADDRUNIT</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>SanGIS address unit number</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ROADPDIR</attrlabl><attalias Sync="TRUE">ROADPDIR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth><attrdef>SanGIS road predirection</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ROADNAME</attrlabl><attalias Sync="TRUE">ROADNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><attrdef>SanGIS road name</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ROADSFX</attrlabl><attalias Sync="TRUE">ROADSFX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>SanGIS road name suffix</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">ZIP</attrlabl><attalias Sync="TRUE">ZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>SanGIS zip code</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">APNID</attrlabl><attalias Sync="TRUE">APNID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Unique record ID</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">YEAR_EFFEC</attrlabl><attalias Sync="TRUE">YEAR_EFFEC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Effective year for appraisal</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">X_COORD</attrlabl><attalias Sync="TRUE">X_COORD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">10</attwidth><attrdef>X coordinate of parcel centroid in state plane feet</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">Y_COORD</attrlabl><attalias Sync="TRUE">Y_COORD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Y coordinate of parcel centroid in state plane feet</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">SUB_TYPE</attrlabl><attalias Sync="TRUE">SUB_TYPE</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Type of parcel  (Refer to Sub_Type codes in Overview)</attrdef><attrdefs>SanGIS</attrdefs><atnumdec Sync="TRUE">8</atnumdec></attr><attr><attrlabl Sync="TRUE">OVERLAY_JU</attrlabl><attalias Sync="TRUE">OVERLAY_JU</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef>Overlay jurisdiction</attrdef><attrdefs>SanGIS</attrdefs><atnumdec Sync="TRUE">8</atnumdec></attr><attr><attrlabl Sync="TRUE">SHAPE</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">MULTI</attrlabl><attalias Sync="TRUE">MULTI</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Multiple parcel indicator</attrdef><attrdefs>SanGIS</attrdefs></attr><attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SHP_ID_ARE</attrlabl><attalias Sync="TRUE">SHP_ID_ARE</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>System generated area</attrdef></attr><attr><attrlabl Sync="TRUE">SHP_ID_LEN</attrlabl><attalias Sync="TRUE">SHP_ID_LEN</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><atnumdec Sync="TRUE">11</atnumdec><attrdef>System generated length</attrdef></attr><attr><attrlabl Sync="TRUE">ADDRNMBR</attrlabl><attalias Sync="TRUE">ADDRNMBR</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">7</attwidth><attrdef>Address street number</attrdef></attr><attr><attrlabl Sync="TRUE">ADDRPDIR</attrlabl><attalias Sync="TRUE">ADDRPDIR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Address street predicate code</attrdef></attr><attr><attrlabl Sync="TRUE">ADDRNAME</attrlabl><attalias Sync="TRUE">ADDRNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>Address street name</attrdef></attr><attr><attrlabl Sync="TRUE">ADDRSFX</attrlabl><attalias Sync="TRUE">ADDRSFX</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Address street suffix</attrdef></attr><attr><attrlabl Sync="TRUE">ADDRJUR</attrlabl><attalias Sync="TRUE">ADDRJUR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><attrdef>Address jurisdiction code (refer to jurisdiction code)</attrdef></attr><attr><attrlabl Sync="TRUE">ADDRZIP</attrlabl><attalias Sync="TRUE">ADDRZIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><attrdef>Address ZIP code</attrdef></attr><attr><attrlabl Sync="TRUE">ASOURCE</attrlabl><attalias Sync="TRUE">ASOURCE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">1</attwidth><attrdef>Address source code</attrdef></attr><attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">8</atnumdec></attr></detailed>
+		<overview>
+			<eaover>DAMAGE_EXT
+
+DES = Destroyed
+MIN = Minor Damage
+MOD = Moderate Damage
+NULL = No Known Structural Damage / Possible Vehicle Damage
+
+SanGIS Code Definitions
+
+
+	ASSESSOR INFO LAND USE
+
+	07	Timeshare
+	09	Mobilehome
+	10	Vacant residential
+	11	Single family residence
+	12	Duplex or double
+	13	Multiple 2 to 4 units or 2 houses
+	14	Multiple 5 to 15 units (res)
+	15	Multiple 16 to 60 units (com)
+	16	Multiple 61 units and up (com)
+	17	Condominium
+	18	Co-op
+	19	Miscellaneous
+	20	Vacant commercial
+	21	1 to 3 story misc. store bldgs
+	22	4 story &amp; up office/store bldgs
+	23	Regional shopping center
+	24	Community shopping center
+	25	Neighborhood shopping center
+	26	Hotel, motel
+	27	Service station
+	28	Offices/medical, dental, veterinary
+	29	Rest home/convalescent hospital
+	30	Office condominiums
+	31	Garage/parking lot/used car lot
+	32	Trailer park
+	33	Theater
+	34	Bowling alley
+	35	Resturant
+	36	Car wash
+	37	Grocery/drug store -- lg chain
+	38	Auto sales/service agency
+	39	Radio station/bank/misc.
+	40	Vacant industrial
+	41	Factory/light manufacturing
+	42	Factory/heavy manufacturing
+	43	Warehouse-processing/storage
+	44	Storage-bulk (tanks, etc)
+	45	Mining &amp; extractive
+	46	Automotive garages (small)
+	47	Condominiums - industrial
+	49	Miscellaneous industrial/special
+	50	Vacant (water available)
+	51	Citrus
+	52	Avocados
+	53	Vines
+	54	Trees - Miscellaneous
+	55	Livestock
+	56	Poultry
+	57	Irrigated crops misc.
+	58	Growing houses
+	59	Miscellaneous agricultural
+	61	1-10 acres
+	62	11-40 acres
+	63	41-160 acres
+	64	161-360 acres
+	65	360 acres and up
+	70	Vacant institutional
+	71	Church
+	72	Church rectory, parking and related
+	73	Cemetary
+	74	Mausoleum
+	75	Mortuary
+	76	Public bldg (school, firehouse, library)
+	77	Hospital
+	78	Private schools and facilities
+	79	Miscellaneous inst
+	80	Vacant recreational
+	81	Meeting hall, gym
+	82	Golf course
+	83	Marina, docks
+	84	Recreational camps
+	85	Non-taxable (always 985)
+	86	Open space easements
+	87	Agricultural preserve (not under contract)
+	88	Agricultural preserve (under contract)
+	89	Miscellaneous/special
+	90	Vacant taxable -- govt owned property
+	91	Improved taxable -- govt owned property
+
+
+
+	ASSESSOR INFO ZONE
+
+	0	Unzoned
+	1	Single family residential (R-1)
+	2	Minor multiple (R-2)
+	3	Restricted multiple (R-3)
+	4	Multiple residential (R-4)
+	5	Restricted commercial
+	6	Commercial
+	7	Industrial (M zone)
+	8	Agricultural
+	9	Special and/or misc.
+
+
+
+               JURISDICTION
+
+	CB	Carlsbad
+	CN	Unincorporated
+	CO	Coronado
+	CV	Chula Vista
+	DM	Del Mar
+	EC	El Cajon
+	EN	Encinitas
+	ES	Escondido
+	IB	Imperial Beach
+	LG	Lemon Grove
+	LM	La Mesa
+	NC	National City
+	OC	Oceanside
+	PW	Poway
+	SD	San Diego
+	SM	San Marcos
+	SO	Solana Beach
+	ST	Santee
+	VS	Vista
+
+
+	MPR DOCUMENT TYPE
+
+	0	Unresearched
+	1	Grant deed
+	2	Quit claim
+	3	Unrecorded deed
+	4	Recorded death certificate
+	5	Unrecorded death certificate
+	6	Other types recorded doctument (Trustees deed)
+	7	Unknown
+	8	Recorded contract
+
+
+
+	SUB_TYPE
+
+	1	Regular parcel with APN number
+	2	Unparcelled Private Road
+	3	Unparcelled Government Land
+                4	Unparcelled Common Area
+                5	Right-of-Way
+</eaover>
+			<eadetcit>http://files.sangis.org/file_store/Parcels%20and%20Lots/Parcels.pdf</eadetcit>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntorg>County of San Diego, Department of Planning and Land Use, GIS</cntorg>
+				</cntperp>
+				<cntpos>Senior GIS Analyst</cntpos>
+				<cntvoice>858-694-2143</cntvoice>
+				<cntfax>858-694-3373</cntfax>
+				<cntemail>dplu_gis@sdcounty.ca.gov</cntemail>
+				<hours>7:30AM - 4PM, Mon - Fri</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data - WWW.SANGIS.ORG</resdesc>
+		<distliab>
+County of San Diego GIS Data Disclaimer and User Agreement -
+Version 2
+
+10/28/2007
+
+The data displayed and downloadable from this web site or web services related to the County of San Diego, its affiliates, or contractors (here after collectively referred to as the County of San Diego) has been collected from various sources and will change over time without notice (all digital spatial information is collectively referred to as "the data" or "these data" here after). In using the data, users should be aware that some of these data are generalized and not parcel based nor is it of a licensed survey based level of accuracy. These data were created for use in regional projects and are generalized and can be inaccurate. While County of San Diego believes the data is accurate and properly functioning, The County of San Diego disclaims any responsibility for the accuracy or correctness of the data. This data is provided on an "AS IS", "AS AVAILABLE" and "WITH ALL FAULTS" basis. The County of San Diego makes no warranties, express or implied, including but not limited to any warranties of merchantability or fitness for a particular purpose, nor shall the distribution of this information constitute any warranty. 
+
+In no event shall the County of San Diego become liable to users of these data, or any other party, for any loss or damages, consequential or otherwise, including but not limited to time, money, or goodwill, arising from the use, operation or modification of the data. In using these data, you further agree to indemnify, defend, and hold harmless The County of San Diego for any and all liability of any nature arising out of or resulting from the lack of accuracy or correctness of the data, or the use of the data.
+
+To ensure that appropriate documentation and data limitations are provided, re-distribution of this data is strongly discouraged. Please acknowledge County of San Diego as a source when County of San Diego data are used in the preparation of reports, papers, publications, maps, or reproduced in graphic or other digital representations. This disclaimer must be accessible or available to be viewed on-line when these data or its derived products are available to be viewed in a digital format by the public or available on any unprotected non fire-walled open internet serving these data, any computer network, file server, and/or ftp site that the public could access with reasonable ease.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>0.036</transize>
+					<dssize Sync="TRUE">0.044</dssize></digtinfo>
+			</digform>
+		</stdorder>
+		<techpreq>ESRI GIS Software</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20080317</metd>
+		<metrd>20071031</metrd>
+		<metfrd>20071101</metfrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>County of San Diego, Department of Planning and Land Use, GIS</cntorg>
+					<cntper>REQUIRED: The person responsible for the metadata information.</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>5201 Ruffin Rd, Suite B</address>
+					<city>San Diego</city>
+					<state>CA</state>
+					<postal>92109</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>REQUIRED: The telephone number by which individuals can speak to the organization or individual.</cntvoice>
+				<cntvoice>858-694-2143</cntvoice>
+				<cntfax>858-694-3373</cntfax>
+				<cntemail>dplu_gis@sdcounty.ca.gov</cntemail>
+				<hours>7:30AM - 4PM, Mon - Fri</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://files.sangis.org/file_store/Parcels%20and%20Lots/Parcels.pdf</onlink>
+			<onlink>http://files.sangis.org/fileList_categorized.aspx?dirPath=D|\sangis_fileserver\file_store\Fire</onlink>
+			<metprof>SanGIS Data Download Page - Fire</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20080314</CreaDate><CreaTime>10380300</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20080317</SyncDate><SyncTime>14233800</SyncTime><ModDate>20080317</ModDate><ModTime>14233800</ModTime><DataProperties><lineage><Process Name="SpatialJoin_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\SpatialJoin" Date="20071213" Time="111255">SpatialJoin firestorm_addapn "SANGIS.PARCELS_ALL selection" K:\1scratch\071212_damage_points_release_sde.shp JOIN_ONE_TO_ONE KEEP_ALL "REPORT_NUM REPORT_NUM true false false 14 Text 0 0 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,REPORT_NUM,-1,-1;ST_NUM ST_NUM true false false 9 Text 0 0 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,ST_NUM,-1,-1;ST_NAME ST_NAME true false false 28 Text 0 0 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,ST_NAME,-1,-1;UNIT UNIT true false false 9 Text 0 0 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,UNIT,-1,-1;APN_1 APN_1 true false false 11 Text 0 0 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,APN_1,-1,-1;PRI_DES PRI_DES true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,PRI_DES,-1,-1;PRI_MOD PRI_MOD true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,PRI_MOD,-1,-1;PRI_MIN PRI_MIN true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,PRI_MIN,-1,-1;SEC_SQFT SEC_SQFT true false false 9 Long 0 9 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,SEC_SQFT,-1,-1;SEC_DES SEC_DES true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,SEC_DES,-1,-1;SEC_MOD SEC_MOD true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,SEC_MOD,-1,-1;SEC_MIN SEC_MIN true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,SEC_MIN,-1,-1;VEH_DES VEH_DES true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,VEH_DES,-1,-1;VEH_MIN VEH_MIN true false false 4 Short 0 4 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,VEH_MIN,-1,-1;COMMENTS COMMENTS true false false 48 Text 0 0 ,First,#,K:\Fire_Services\Incidents\2007_santa_ana_fires\incident_data\firestorm_addapn.shp,COMMENTS,-1,-1;APN APN true true false 10 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,APN,-1,-1;APN_8 APN_8 true true false 8 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,APN_8,-1,-1;PARCELID PARCELID true true false 4 Long 0 7 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,PARCELID,-1,-1;OWN_NAME1 OWN_NAME1 true true false 96 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_NAME1,-1,-1;OWN_NAME2 OWN_NAME2 true true false 50 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_NAME2,-1,-1;OWN_NAME3 OWN_NAME3 true true false 50 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_NAME3,-1,-1;FRACTINT FRACTINT true true false 8 Double 5 16 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,FRACTINT,-1,-1;OWN_ADDR1 OWN_ADDR1 true true false 75 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_ADDR1,-1,-1;OWN_ADDR2 OWN_ADDR2 true true false 50 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_ADDR2,-1,-1;OWN_ADDR3 OWN_ADDR3 true true false 50 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_ADDR3,-1,-1;OWN_ADDR4 OWN_ADDR4 true true false 50 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_ADDR4,-1,-1;OWN_ZIP OWN_ZIP true true false 9 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWN_ZIP,-1,-1;SITUS_JURI SITUS_JURI true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_JURIS,-1,-1;SITUS_STRE SITUS_STRE true true false 30 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_STREET,-1,-1;SITUS_SUFF SITUS_SUFF true true false 4 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_SUFFIX,-1,-1;SITUS_POST SITUS_POST true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_POST_DIR,-1,-1;SITUS_PRE_ SITUS_PRE_ true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_PRE_DIR,-1,-1;SITUS_ADDR SITUS_ADDR true true false 4 Long 0 6 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_ADDRESS,-1,-1;SITUS_FRAC SITUS_FRAC true true false 3 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_FRACTION,-1,-1;SITUS_BUIL SITUS_BUIL true true false 4 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_BUILDING,-1,-1;SITUS_SUIT SITUS_SUIT true true false 6 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_SUITE,-1,-1;SITUS_COMM SITUS_COMM true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SITUS_COMMUNITY,-1,-1;LEGLDESC LEGLDESC true true false 65 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,LEGLDESC,-1,-1;ASR_LAND ASR_LAND true true false 4 Long 0 9 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ASR_LAND,-1,-1;ASR_IMPR ASR_IMPR true true false 4 Long 0 9 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ASR_IMPR,-1,-1;ASR_TOTAL ASR_TOTAL true true false 4 Long 0 9 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ASR_TOTAL,-1,-1;DOCTYPE DOCTYPE true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,DOCTYPE,-1,-1;DOCNMBR DOCNMBR true true false 6 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,DOCNMBR,-1,-1;DOCDATE DOCDATE true true false 8 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,DOCDATE,-1,-1;ACREAGE ACREAGE true true false 8 Double 5 16 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ACREAGE,-1,-1;TAXSTAT TAXSTAT true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,TAXSTAT,-1,-1;OWNEROCC OWNEROCC true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OWNEROCC,-1,-1;TRANUM TRANUM true true false 5 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,TRANUM,-1,-1;ASR_ZONE ASR_ZONE true true false 2 Short 0 1 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ASR_ZONE,-1,-1;ASR_LANDUS ASR_LANDUS true true false 2 Short 0 2 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ASR_LANDUSE,-1,-1;UNITQTY UNITQTY true true false 2 Short 0 4 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,UNITQTY,-1,-1;SUBMAP SUBMAP true true false 11 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SUBMAP,-1,-1;SUBNAME SUBNAME true true false 64 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SUBNAME,-1,-1;ADDRNO ADDRNO true true false 4 Long 0 8 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ADDRNO,-1,-1;ADDRFRAC ADDRFRAC true true false 3 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ADDRFRAC,-1,-1;ADDRUNIT ADDRUNIT true true false 8 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ADDRUNIT,-1,-1;ROADPDIR ROADPDIR true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ROADPDIR,-1,-1;ROADNAME ROADNAME true true false 20 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ROADNAME,-1,-1;ROADSFX ROADSFX true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ROADSFX,-1,-1;ZIP ZIP true true false 5 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ZIP,-1,-1;APNID APNID true true false 4 Long 0 8 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,APNID,-1,-1;YEAR_EFFEC YEAR_EFFEC true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,YEAR_EFFECTIVE,-1,-1;TOTAL_LVG_ TOTAL_LVG_ true true false 4 Long 0 5 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,TOTAL_LVG_AREA,-1,-1;BEDROOMS BEDROOMS true true false 3 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,BEDROOMS,-1,-1;BATHS BATHS true true false 3 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,BATHS,-1,-1;ADDITION_A ADDITION_A true true false 4 Long 0 5 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,ADDITION_AREA,-1,-1;GARAGE_CON GARAGE_CON true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,GARAGE_CONVERSION,-1,-1;GARAGE_STA GARAGE_STA true true false 3 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,GARAGE_STALLS,-1,-1;CARPORT_ST CARPORT_ST true true false 3 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,CARPORT_STALLS,-1,-1;POOL POOL true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,POOL,-1,-1;PAR_VIEW PAR_VIEW true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,PAR_VIEW,-1,-1;USABLE_SQ_ USABLE_SQ_ true true false 5 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,USABLE_SQ_FEET,-1,-1;X_COORD X_COORD true true false 8 Double 8 38 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,X_COORD,-1,-1;Y_COORD Y_COORD true true false 8 Double 8 38 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,Y_COORD,-1,-1;MULTI MULTI true true false 1 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,MULTI,-1,-1;OVERLAY_JU OVERLAY_JU true true false 2 Text 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,OVERLAY_JURIS,-1,-1;SUB_TYPE SUB_TYPE true true false 2 Short 0 4 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SUB_TYPE,-1,-1;AREA AREA false false true 0 Double 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SHP_ID.AREA,-1,-1;LEN LEN false false true 0 Double 0 0 ,First,#,Database Connections\sangis.sde\SANGIS.PARCELS_ALL,SHP_ID.LEN,-1,-1" INTERSECTS "0 Feet"</Process><Process Name="FeatureClassToFeatureClass_1" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20071214" Time="153050">FeatureClassToFeatureClass Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp "Database Connections\sangis@sangis.sde" FIRESTORM_2007_DAMAGES_CN # "REPORT_NUM REPORT_NUM true false false 14 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,REPORT_NUM,-1,-1;ST_NUM ST_NUM true false false 9 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ST_NUM,-1,-1;ST_NAME ST_NAME true false false 28 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ST_NAME,-1,-1;UNIT UNIT true false false 9 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,UNIT,-1,-1;APN_1 APN_1 true false false 11 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,APN_1,-1,-1;PRI_DES PRI_DES true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,PRI_DES,-1,-1;PRI_MOD PRI_MOD true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,PRI_MOD,-1,-1;PRI_MIN PRI_MIN true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,PRI_MIN,-1,-1;SEC_SQFT SEC_SQFT true false false 9 Long 0 9 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SEC_SQFT,-1,-1;SEC_DES SEC_DES true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SEC_DES,-1,-1;SEC_MOD SEC_MOD true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SEC_MOD,-1,-1;SEC_MIN SEC_MIN true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SEC_MIN,-1,-1;VEH_DES VEH_DES true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,VEH_DES,-1,-1;VEH_MIN VEH_MIN true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,VEH_MIN,-1,-1;COMMENTS COMMENTS true false false 48 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,COMMENTS,-1,-1;APN APN true false false 10 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,APN,-1,-1;APN_8 APN_8 true false false 8 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,APN_8,-1,-1;PARCELID PARCELID true false false 7 Long 0 7 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,PARCELID,-1,-1;OWN_NAME1 OWN_NAME1 true false false 96 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_NAME1,-1,-1;OWN_NAME2 OWN_NAME2 true false false 50 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_NAME2,-1,-1;OWN_NAME3 OWN_NAME3 true false false 50 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_NAME3,-1,-1;FRACTINT FRACTINT true false false 19 Double 5 18 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,FRACTINT,-1,-1;OWN_ADDR1 OWN_ADDR1 true false false 75 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_ADDR1,-1,-1;OWN_ADDR2 OWN_ADDR2 true false false 50 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_ADDR2,-1,-1;OWN_ADDR3 OWN_ADDR3 true false false 50 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_ADDR3,-1,-1;OWN_ADDR4 OWN_ADDR4 true false false 50 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_ADDR4,-1,-1;OWN_ZIP OWN_ZIP true false false 9 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWN_ZIP,-1,-1;SITUS_JURI SITUS_JURI true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_JURI,-1,-1;SITUS_STRE SITUS_STRE true false false 30 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_STRE,-1,-1;SITUS_SUFF SITUS_SUFF true false false 4 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_SUFF,-1,-1;SITUS_POST SITUS_POST true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_POST,-1,-1;SITUS_PRE_ SITUS_PRE_ true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_PRE_,-1,-1;SITUS_ADDR SITUS_ADDR true false false 6 Long 0 6 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_ADDR,-1,-1;SITUS_FRAC SITUS_FRAC true false false 3 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_FRAC,-1,-1;SITUS_BUIL SITUS_BUIL true false false 4 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_BUIL,-1,-1;SITUS_SUIT SITUS_SUIT true false false 6 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_SUIT,-1,-1;SITUS_COMM SITUS_COMM true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SITUS_COMM,-1,-1;LEGLDESC LEGLDESC true false false 65 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,LEGLDESC,-1,-1;ASR_LAND ASR_LAND true false false 9 Long 0 9 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ASR_LAND,-1,-1;ASR_IMPR ASR_IMPR true false false 9 Long 0 9 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ASR_IMPR,-1,-1;ASR_TOTAL ASR_TOTAL true false false 9 Long 0 9 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ASR_TOTAL,-1,-1;DOCTYPE DOCTYPE true false false 1 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,DOCTYPE,-1,-1;DOCNMBR DOCNMBR true false false 6 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,DOCNMBR,-1,-1;DOCDATE DOCDATE true false false 8 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,DOCDATE,-1,-1;ACREAGE ACREAGE true false false 19 Double 5 18 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ACREAGE,-1,-1;TAXSTAT TAXSTAT true false false 1 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,TAXSTAT,-1,-1;OWNEROCC OWNEROCC true false false 1 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OWNEROCC,-1,-1;TRANUM TRANUM true false false 5 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,TRANUM,-1,-1;ASR_ZONE ASR_ZONE true false false 1 Short 0 1 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ASR_ZONE,-1,-1;ASR_LANDUS ASR_LANDUS true false false 2 Short 0 2 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ASR_LANDUS,-1,-1;UNITQTY UNITQTY true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,UNITQTY,-1,-1;SUBMAP SUBMAP true false false 11 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SUBMAP,-1,-1;SUBNAME SUBNAME true false false 64 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SUBNAME,-1,-1;ADDRNO ADDRNO true false false 8 Long 0 8 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ADDRNO,-1,-1;ADDRFRAC ADDRFRAC true false false 3 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ADDRFRAC,-1,-1;ADDRUNIT ADDRUNIT true false false 8 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ADDRUNIT,-1,-1;ROADPDIR ROADPDIR true false false 1 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ROADPDIR,-1,-1;ROADNAME ROADNAME true false false 20 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ROADNAME,-1,-1;ROADSFX ROADSFX true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ROADSFX,-1,-1;ZIP ZIP true false false 5 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,ZIP,-1,-1;APNID APNID true false false 8 Long 0 8 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,APNID,-1,-1;YEAR_EFFEC YEAR_EFFEC true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,YEAR_EFFEC,-1,-1;X_COORD X_COORD true false false 19 Double 8 18 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,X_COORD,-1,-1;Y_COORD Y_COORD true false false 19 Double 8 18 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,Y_COORD,-1,-1;MULTI MULTI true false false 1 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,MULTI,-1,-1;OVERLAY_JU OVERLAY_JU true false false 2 Text 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,OVERLAY_JU,-1,-1;SUB_TYPE SUB_TYPE true false false 4 Short 0 4 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,SUB_TYPE,-1,-1;AREA AREA true false false 19 Double 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,AREA,-1,-1;LEN LEN true false false 19 Double 0 0 ,First,#,Z:\Review\Fire_Damages\FIRESTORM_2007_DAMAGES_CN.shp,LEN,-1,-1" # "Database Connections\sangis@sangis.sde\SANGIS.FIRESTORM_2007_DAMAGES_CN"</Process><Process Name="MultipartToSinglepart_2" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\MultipartToSinglepart" Date="20080312" Time="093338">MultipartToSinglepart FIRESTORM_2007_DAMAGES_UNINC "C:\SDEUpdates\Firestorm_Damages_12_2007\March 2008\Firestorm_damages_uninc.shp"</Process><Process Name="Merge_3" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\Merge" Date="20080312" Time="093429">Merge Firestorm_damages_uninc;Fire_damages_combined "C:\SDEUpdates\Firestorm_Damages_12_2007\March 2008\Firestorm_damages_uninc_Merg.shp" "REPORT_NUM REPORT_NUM true false false 14 Text 0 0 ,First,#,Firestorm_damages_uninc,REPORT_NUM,-1,-1,Fire_damages_combined,REPORT_NUM,-1,-1;ST_NUM ST_NUM true false false 9 Text 0 0 ,First,#,Firestorm_damages_uninc,ST_NUM,-1,-1,Fire_damages_combined,ST_NUM,-1,-1;ST_NAME ST_NAME true false false 28 Text 0 0 ,First,#,Firestorm_damages_uninc,ST_NAME,-1,-1,Fire_damages_combined,ST_NAME,-1,-1;UNIT UNIT true false false 9 Text 0 0 ,First,#,Firestorm_damages_uninc,UNIT,-1,-1,Fire_damages_combined,UNIT,-1,-1;APN_1 APN_1 true false false 11 Text 0 0 ,First,#,Firestorm_damages_uninc,APN_1,-1,-1;PRI_DES PRI_DES true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,PRI_DES,-1,-1,Fire_damages_combined,PRI_DES,-1,-1;PRI_MOD PRI_MOD true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,PRI_MOD,-1,-1,Fire_damages_combined,PRI_MOD,-1,-1;PRI_MIN PRI_MIN true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,PRI_MIN,-1,-1,Fire_damages_combined,PRI_MIN,-1,-1;SEC_SQFT SEC_SQFT true false false 9 Long 0 9 ,First,#,Firestorm_damages_uninc,SEC_SQFT,-1,-1,Fire_damages_combined,SEC_SQFT,-1,-1;SEC_DES SEC_DES true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,SEC_DES,-1,-1,Fire_damages_combined,SEC_DES,-1,-1;SEC_MOD SEC_MOD true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,SEC_MOD,-1,-1,Fire_damages_combined,SEC_MOD,-1,-1;SEC_MIN SEC_MIN true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,SEC_MIN,-1,-1,Fire_damages_combined,SEC_MIN,-1,-1;VEH_DES VEH_DES true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,VEH_DES,-1,-1,Fire_damages_combined,VEH_DES,-1,-1;VEH_MIN VEH_MIN true false false 4 Short 0 4 ,First,#,Firestorm_damages_uninc,VEH_MIN,-1,-1,Fire_damages_combined,VEH_MIN,-1,-1;COMMENTS COMMENTS true false false 48 Text 0 0 ,First,#,Firestorm_damages_uninc,COMMENTS,-1,-1,Fire_damages_combined,COMMENTS,-1,-1;OBJECTID OBJECTID true false false 9 Long 0 9 ,First,#,Firestorm_damages_uninc,OBJECTID,-1,-1,Fire_damages_combined,OBJECTID,-1,-1;APN APN true false false 10 Text 0 0 ,First,#,Firestorm_damages_uninc,APN,-1,-1,Fire_damages_combined,APN,-1,-1;APN_8 APN_8 true false false 8 Text 0 0 ,First,#,Firestorm_damages_uninc,APN_8,-1,-1,Fire_damages_combined,APN_8,-1,-1;PARCELID PARCELID true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,PARCELID,-1,-1,Fire_damages_combined,PARCELID,-1,-1;OWN_NAME1 OWN_NAME1 true false false 96 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_NAME1,-1,-1,Fire_damages_combined,OWN_NAME1,-1,-1;OWN_NAME2 OWN_NAME2 true false false 50 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_NAME2,-1,-1,Fire_damages_combined,OWN_NAME2,-1,-1;OWN_NAME3 OWN_NAME3 true false false 50 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_NAME3,-1,-1,Fire_damages_combined,OWN_NAME3,-1,-1;FRACTINT FRACTINT true false false 19 Double 5 18 ,First,#,Firestorm_damages_uninc,FRACTINT,-1,-1,Fire_damages_combined,FRACTINT,-1,-1;OWN_ADDR1 OWN_ADDR1 true false false 75 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_ADDR1,-1,-1,Fire_damages_combined,OWN_ADDR1,-1,-1;OWN_ADDR2 OWN_ADDR2 true false false 50 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_ADDR2,-1,-1,Fire_damages_combined,OWN_ADDR2,-1,-1;OWN_ADDR3 OWN_ADDR3 true false false 50 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_ADDR3,-1,-1,Fire_damages_combined,OWN_ADDR3,-1,-1;OWN_ADDR4 OWN_ADDR4 true false false 50 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_ADDR4,-1,-1,Fire_damages_combined,OWN_ADDR4,-1,-1;OWN_ZIP OWN_ZIP true false false 9 Text 0 0 ,First,#,Firestorm_damages_uninc,OWN_ZIP,-1,-1,Fire_damages_combined,OWN_ZIP,-1,-1;SITUS_JURI SITUS_JURI true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_JURI,-1,-1,Fire_damages_combined,SITUS_JURI,-1,-1;SITUS_STRE SITUS_STRE true false false 30 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_STRE,-1,-1,Fire_damages_combined,SITUS_STRE,-1,-1;SITUS_SUFF SITUS_SUFF true false false 4 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_SUFF,-1,-1,Fire_damages_combined,SITUS_SUFF,-1,-1;SITUS_POST SITUS_POST true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_POST,-1,-1,Fire_damages_combined,SITUS_POST,-1,-1;SITUS_PRE_ SITUS_PRE_ true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_PRE_,-1,-1,Fire_damages_combined,SITUS_PRE_,-1,-1;SITUS_ADDR SITUS_ADDR true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,SITUS_ADDR,-1,-1,Fire_damages_combined,SITUS_ADDR,-1,-1;SITUS_FRAC SITUS_FRAC true false false 3 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_FRAC,-1,-1,Fire_damages_combined,SITUS_FRAC,-1,-1;SITUS_BUIL SITUS_BUIL true false false 4 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_BUIL,-1,-1,Fire_damages_combined,SITUS_BUIL,-1,-1;SITUS_SUIT SITUS_SUIT true false false 6 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_SUIT,-1,-1,Fire_damages_combined,SITUS_SUIT,-1,-1;SITUS_COMM SITUS_COMM true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,SITUS_COMM,-1,-1,Fire_damages_combined,SITUS_COMM,-1,-1;LEGLDESC LEGLDESC true false false 65 Text 0 0 ,First,#,Firestorm_damages_uninc,LEGLDESC,-1,-1,Fire_damages_combined,LEGLDESC,-1,-1;ASR_LAND ASR_LAND true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,ASR_LAND,-1,-1,Fire_damages_combined,ASR_LAND,-1,-1;ASR_IMPR ASR_IMPR true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,ASR_IMPR,-1,-1,Fire_damages_combined,ASR_IMPR,-1,-1;ASR_TOTAL ASR_TOTAL true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,ASR_TOTAL,-1,-1,Fire_damages_combined,ASR_TOTAL,-1,-1;DOCTYPE DOCTYPE true false false 1 Text 0 0 ,First,#,Firestorm_damages_uninc,DOCTYPE,-1,-1,Fire_damages_combined,DOCTYPE,-1,-1;DOCNMBR DOCNMBR true false false 6 Text 0 0 ,First,#,Firestorm_damages_uninc,DOCNMBR,-1,-1,Fire_damages_combined,DOCNMBR,-1,-1;DOCDATE DOCDATE true false false 8 Text 0 0 ,First,#,Firestorm_damages_uninc,DOCDATE,-1,-1,Fire_damages_combined,DOCDATE,-1,-1;ACREAGE ACREAGE true false false 19 Double 5 18 ,First,#,Firestorm_damages_uninc,ACREAGE,-1,-1,Fire_damages_combined,ACREAGE,-1,-1;TAXSTAT TAXSTAT true false false 1 Text 0 0 ,First,#,Firestorm_damages_uninc,TAXSTAT,-1,-1,Fire_damages_combined,TAXSTAT,-1,-1;OWNEROCC OWNEROCC true false false 1 Text 0 0 ,First,#,Firestorm_damages_uninc,OWNEROCC,-1,-1,Fire_damages_combined,OWNEROCC,-1,-1;TRANUM TRANUM true false false 5 Text 0 0 ,First,#,Firestorm_damages_uninc,TRANUM,-1,-1,Fire_damages_combined,TRANUM,-1,-1;ASR_ZONE ASR_ZONE true false false 5 Long 0 5 ,First,#,Firestorm_damages_uninc,ASR_ZONE,-1,-1,Fire_damages_combined,ASR_ZONE,-1,-1;ASR_LANDUS ASR_LANDUS true false false 5 Long 0 5 ,First,#,Firestorm_damages_uninc,ASR_LANDUS,-1,-1,Fire_damages_combined,ASR_LANDUS,-1,-1;UNITQTY UNITQTY true false false 5 Long 0 5 ,First,#,Firestorm_damages_uninc,UNITQTY,-1,-1,Fire_damages_combined,UNITQTY,-1,-1;SUBMAP SUBMAP true false false 11 Text 0 0 ,First,#,Firestorm_damages_uninc,SUBMAP,-1,-1,Fire_damages_combined,SUBMAP,-1,-1;SUBNAME SUBNAME true false false 64 Text 0 0 ,First,#,Firestorm_damages_uninc,SUBNAME,-1,-1,Fire_damages_combined,SUBNAME,-1,-1;ADDRNO ADDRNO true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,ADDRNO,-1,-1,Fire_damages_combined,ADDRNO,-1,-1;ADDRFRAC ADDRFRAC true false false 3 Text 0 0 ,First,#,Firestorm_damages_uninc,ADDRFRAC,-1,-1,Fire_damages_combined,ADDRFRAC,-1,-1;ADDRUNIT ADDRUNIT true false false 8 Text 0 0 ,First,#,Firestorm_damages_uninc,ADDRUNIT,-1,-1,Fire_damages_combined,ADDRUNIT,-1,-1;ROADPDIR ROADPDIR true false false 1 Text 0 0 ,First,#,Firestorm_damages_uninc,ROADPDIR,-1,-1,Fire_damages_combined,ROADPDIR,-1,-1;ROADNAME ROADNAME true false false 20 Text 0 0 ,First,#,Firestorm_damages_uninc,ROADNAME,-1,-1,Fire_damages_combined,ROADNAME,-1,-1;ROADSFX ROADSFX true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,ROADSFX,-1,-1,Fire_damages_combined,ROADSFX,-1,-1;ZIP ZIP true false false 5 Text 0 0 ,First,#,Firestorm_damages_uninc,ZIP,-1,-1,Fire_damages_combined,ZIP,-1,-1;APNID APNID true false false 10 Double 0 10 ,First,#,Firestorm_damages_uninc,APNID,-1,-1,Fire_damages_combined,APNID,-1,-1;YEAR_EFFEC YEAR_EFFEC true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,YEAR_EFFEC,-1,-1,Fire_damages_combined,YEAR_EFFEC,-1,-1;X_COORD X_COORD true false false 19 Double 8 18 ,First,#,Firestorm_damages_uninc,X_COORD,-1,-1,Fire_damages_combined,X_COORD,-1,-1;Y_COORD Y_COORD true false false 19 Double 8 18 ,First,#,Firestorm_damages_uninc,Y_COORD,-1,-1,Fire_damages_combined,Y_COORD,-1,-1;MULTI MULTI true false false 1 Text 0 0 ,First,#,Firestorm_damages_uninc,MULTI,-1,-1,Fire_damages_combined,MULTI,-1,-1;OVERLAY_JU OVERLAY_JU true false false 2 Text 0 0 ,First,#,Firestorm_damages_uninc,OVERLAY_JU,-1,-1,Fire_damages_combined,OVERLAY_JU,-1,-1;SUB_TYPE SUB_TYPE true false false 5 Long 0 5 ,First,#,Firestorm_damages_uninc,SUB_TYPE,-1,-1,Fire_damages_combined,SUB_TYPE,-1,-1;area area true false false 19 Double 0 0 ,First,#,Firestorm_damages_uninc,area,-1,-1,Fire_damages_combined,AREA,-1,-1;len len true false false 19 Double 0 0 ,First,#,Firestorm_damages_uninc,len,-1,-1,Fire_damages_combined,LEN,-1,-1;TOTAL_LVG_ TOTAL_LVG_ true false false 5 Long 0 5 ,First,#,Fire_damages_combined,TOTAL_LVG_,-1,-1;BEDROOMS BEDROOMS true false false 3 Text 0 0 ,First,#,Fire_damages_combined,BEDROOMS,-1,-1;BATHS BATHS true false false 3 Text 0 0 ,First,#,Fire_damages_combined,BATHS,-1,-1;ADDITION_A ADDITION_A true false false 5 Long 0 5 ,First,#,Fire_damages_combined,ADDITION_A,-1,-1;GARAGE_CON GARAGE_CON true false false 1 Text 0 0 ,First,#,Fire_damages_combined,GARAGE_CON,-1,-1;GARAGE_STA GARAGE_STA true false false 3 Text 0 0 ,First,#,Fire_damages_combined,GARAGE_STA,-1,-1;CARPORT_ST CARPORT_ST true false false 3 Text 0 0 ,First,#,Fire_damages_combined,CARPORT_ST,-1,-1;POOL POOL true false false 1 Text 0 0 ,First,#,Fire_damages_combined,POOL,-1,-1;PAR_VIEW PAR_VIEW true false false 1 Text 0 0 ,First,#,Fire_damages_combined,PAR_VIEW,-1,-1;USABLE_SQ_ USABLE_SQ_ true false false 5 Text 0 0 ,First,#,Fire_damages_combined,USABLE_SQ_,-1,-1;SHP_ID_ARE SHP_ID_ARE true false false 19 Double 0 0 ,First,#,Fire_damages_combined,SHP_ID_ARE,-1,-1;SHP_ID_LEN SHP_ID_LEN true false false 19 Double 0 0 ,First,#,Fire_damages_combined,SHP_ID_LEN,-1,-1;ADDRNMBR ADDRNMBR true false false 7 Long 0 7 ,First,#,Fire_damages_combined,ADDRNMBR,-1,-1;ADDRPDIR ADDRPDIR true false false 1 Text 0 0 ,First,#,Fire_damages_combined,ADDRPDIR,-1,-1;ADDRNAME ADDRNAME true false false 20 Text 0 0 ,First,#,Fire_damages_combined,ADDRNAME,-1,-1;ADDRSFX ADDRSFX true false false 2 Text 0 0 ,First,#,Fire_damages_combined,ADDRSFX,-1,-1;ADDRJUR ADDRJUR true false false 2 Text 0 0 ,First,#,Fire_damages_combined,ADDRJUR,-1,-1;ADDRZIP ADDRZIP true false false 5 Text 0 0 ,First,#,Fire_damages_combined,ADDRZIP,-1,-1;ASOURCE ASOURCE true false false 1 Text 0 0 ,First,#,Fire_damages_combined,ASOURCE,-1,-1;X_COORD_1 X_COORD_1 true false false 19 Double 8 18 ,First,#,Fire_damages_combined,X_COORD_1,-1,-1;Y_COORD_1 Y_COORD_1 true false false 19 Double 8 18 ,First,#,Fire_damages_combined,Y_COORD_1,-1,-1"</Process></lineage></DataProperties><MetaID>{97ADC7C7-DF72-4DFF-9EA3-F17847458D95}</MetaID></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 9.2.2.1350</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Firestorm_2007_Damages_CN_All</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">6239590.838736</westBL><eastBL Sync="TRUE">6459093.5</eastBL><northBL Sync="TRUE">2104095.815743</northBL><southBL Sync="TRUE">1792436.38</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-117.305755</westBL><eastBL Sync="TRUE">-116.582979</eastBL><northBL Sync="TRUE">33.440568</northBL><southBL Sync="TRUE">32.580029</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\BLACK\C$\SDEUpdates\Firestorm_2007_Damages_CN_All.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.044</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_StatePlane_California_VI_FIPS_0406_Feet</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Firestorm_2007_Damages_CN_All"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="004"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">1649</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20080317</mdDateSt></metadata>
