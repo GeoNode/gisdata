@@ -6,14 +6,16 @@ def read(*rnames):
 
 def all_dirs(location):
     output = []
-    for path, dirs, files in os.walk(location):
-        for d in dirs:
-            item = os.path.join(path, d, '*')
+    for root, dirs, files in os.walk(location):
+        if len(files) > 0 and root != location:
+            data_path = os.path.join(root, '*')
+
             # Get rid of the first 'gisdata'
-            valid_dir = os.sep.join(item.split(os.sep)[1:])
+            valid_dir = os.sep.join(data_path.split(os.sep)[1:])
             output.append(valid_dir)
     return output
 
+print all_dirs('gisdata')
 
 setup(
     name="gisdata",
