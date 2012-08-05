@@ -17,7 +17,7 @@ def all_dirs(location):
 
 setup(
     name="gisdata",
-    version="0.4.2",
+    version="0.4.3",
     author="ingenieroariel",
     author_email="ingenieroariel@gmail.com",
     description="Sample data and metadata for GIS packages",
