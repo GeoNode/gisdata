@@ -15,8 +15,6 @@ def all_dirs(location):
             output.append(valid_dir)
     return output
 
-print all_dirs('gisdata')
-
 setup(
     name="gisdata",
     version="0.4.2",
