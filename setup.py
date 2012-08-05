@@ -6,7 +6,7 @@ def read(*rnames):
 
 setup(
     name="gisdata",
-    version="0.4.1",
+    version="0.4.2",
     author="ingenieroariel",
     author_email="ingenieroariel@gmail.com",
     description="Sample data and metadata for GIS packages",
@@ -19,8 +19,12 @@ setup(
     ],
     license="BSD",
     keywords="gis",
-    url='https://github.com/ingenieroariel/gisdata',
+    url='https://github.com/GeoNode/gisdata',
     packages=['gisdata',],
-    package_data={'gisdata': ['data/good/vector/*', 'data/good/raster/*', 'data/bad/*', 'data/good/time/*']},
+    package_data={'gisdata': ['data/good/vector/*',
+                              'data/good/raster/*',
+                              'data/bad/*',
+                              'data/good/time/*',
+                              ]},
     zip_safe=False,
 )
