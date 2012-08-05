@@ -7,7 +7,7 @@ def read(*rnames):
 def all_dirs(location):
     output = []
     for root, dirs, files in os.walk(location):
-        if len(files) > 0 and root != location:
+        if len(files) > 0 and root != location and 'README.txt' not in files:
             data_path = os.path.join(root, '*')
 
             # Get rid of the first 'gisdata'
