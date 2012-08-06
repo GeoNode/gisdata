@@ -26,7 +26,8 @@ setup(
     # http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'License :: OSI Approved :: BSD License'
+        'License :: OSI Approved :: BSD License',
+        'Topic :: Scientific/Engineering :: GIS'
     ],
     license="BSD",
     keywords="gis",
