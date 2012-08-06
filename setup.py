@@ -7,7 +7,7 @@ def read(*rnames):
 def all_dirs(location):
     output = []
     for root, dirs, files in os.walk(location):
-        if len(files) > 0 and root != location:
+        if len(files) > 0 and root != location and 'README.txt' not in files:
             data_path = os.path.join(root, '*')
 
             # Get rid of the first 'gisdata'
@@ -17,7 +17,7 @@ def all_dirs(location):
 
 setup(
     name="gisdata",
-    version="0.4.3",
+    version="0.4.4",
     author="ingenieroariel",
     author_email="ingenieroariel@gmail.com",
     description="Sample data and metadata for GIS packages",
