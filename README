@@ -31,6 +31,9 @@ Get the absolute path to the the sample data from python::
     >>> from gisdata import GOOD_DATA
     >>> print GOOD_DATA
     '/usr/lib/python2.6/site-packages/gisdata/data/good'
+    >>> from gisdata import METADATA_DIR
+    >>> print METADATA_DIR
+    '/usr/lib/python2.6/site-packages/gisdata/metadata'
     >>> from gisdata import GOOD_METADATA
     >>> print GOOD_METADATA
     '/usr/lib/python2.6/site-packages/gisdata/metadata/good'
