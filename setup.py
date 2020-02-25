@@ -1,8 +1,10 @@
 import os
 from distutils.core import setup
 
+
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+
 
 def all_dirs(location):
     output = []
@@ -14,6 +16,7 @@ def all_dirs(location):
             valid_dir = os.sep.join(data_path.split(os.sep)[1:])
             output.append(valid_dir)
     return output
+
 
 setup(
     name="gisdata",
@@ -32,7 +35,7 @@ setup(
     license="BSD",
     keywords="gis",
     url='https://github.com/GeoNode/gisdata',
-    packages=['gisdata',],
-    package_data={'gisdata': all_dirs('gisdata'),},
+    packages=['gisdata', ],
+    package_data={'gisdata': all_dirs('gisdata'), },
     zip_safe=False,
 )
